@@ -1,0 +1,167 @@
+.cardItem {
+  position: relative;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+  border: 1px solid var(--border-color);
+  background: var(--bg-white) !important;
+
+  .mainImg {
+    object-position: bottom;
+  }
+
+  .badgeWrapper {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 9;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .badge {
+      height: 32px;
+      border-radius: 16px;
+      background-color: rgba(0, 0, 0, 0.38);
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      padding: 0 10px;
+      .icon {
+        height: 20px;
+        width: 20px;
+      }
+      .badgeName {
+        color: #ffffff;
+        font-family: 'Visby CF Bold';
+        font-size: 13px;
+      }
+    }
+    .fractionBadge {
+      height: 30px;
+      width: 30px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .factionIconImg {
+        object-fit: contain;
+        height: 14px;
+        width: 16px;
+      }
+    }
+  }
+  .cardTop {
+    &:hover {
+      background: transparent;
+    }
+  }
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 5px;
+
+    .userImg {
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .verifiedIcon {
+      display: flex;
+      font-size: 18px;
+      color: #2d67ff;
+    }
+  }
+  .cardDesc {
+    padding: 12px 16px !important;
+    cursor: pointer;
+    background: var(--bg-white);
+  }
+  .likeButtonWrapper {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+    cursor: pointer;
+    .likeButton {
+      right: 16px;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color: var(--bg-btn-action);
+      color: #c9c9c9;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1) !important;
+    }
+    .favIcon {
+      font-size: 20px;
+    }
+    .likedIcon {
+      color: red;
+      font-size: 1.1rem;
+    }
+  }
+
+  .userName {
+    font-size: 13px;
+    font-family: 'Visby CF Bold';
+    white-space: nowrap;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-color);
+    line-height: 15px;
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+
+  .cardName {
+    font-family: 'Visby CF Bold';
+    font-size: 18px;
+    color: var(--text-color);
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 21px;
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+  .cardBottom {
+    cursor: pointer;
+    background-color: var(--bg-card-footer);
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 16px;
+
+    .title {
+      font-family: 'Visby CF Demi Bold';
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: var(--card-bottom-text);
+      line-height: 14px;
+    }
+    .info {
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--card-action-title);
+      font-family: 'Visby CF Bold';
+      margin-top: 3px;
+      line-height: 19px;
+      white-space: nowrap;
+      max-width: 85px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @media (max-width: 600px) {
+        font-size: 12px;
+      }
+    }
+  }
+}

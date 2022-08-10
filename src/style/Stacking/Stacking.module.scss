@@ -1,0 +1,327 @@
+.stacking {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .selectField {
+    div {
+      color: var(--text-color);
+    }
+  }
+  .tableWrapper {
+    td {
+      border-bottom-color: var(--border-color);
+    }
+  }
+  .pageTitle {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 25px;
+    font-family: 'Visby CF Extra Bold';
+  }
+  .stackingCard {
+    border-radius: 14px;
+    background-color: var(--bg-card);
+    padding: 30px;
+    box-shadow: 0 8px 26px 0 rgba(0, 0, 0, 0.14);
+
+    .cardTitle {
+      color: var(--text-color);
+      font-size: 27px;
+      font-weight: 800;
+      line-height: 32px;
+      margin-bottom: 10px;
+      font-family: 'Visby CF Extra Bold';
+    }
+    .tableHeadCell {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text-color);
+      font-family: 'Visby CF Extra Bold';
+    }
+    .collectionInfoWrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .collectionInfoCount {
+        font-size: 18px;
+        color: var(--text-color);
+      }
+      .userInfoWrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        @media (max-width: 600px) {
+          margin-right: 10px;
+        }
+        .userInfo {
+          position: relative;
+          .userImg {
+            height: 40px;
+            width: 40px;
+            min-width: 40px;
+            border-radius: 5px;
+            object-fit: cover;
+          }
+        }
+        .userName {
+          color: var(--text-color);
+          font-size: 14px;
+          font-weight: 600;
+          font-family: 'Visby CF Demi Bold';
+        }
+        .tabnam {
+          color: var(--text-color);
+          font-size: 14px;
+          font-family: 'Visby CF Demi Bold';
+        }
+      }
+    }
+    .tableBodyCell {
+      font-size: 14px;
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+      .greenbox {
+        padding: 7px 8px 4px 8px;
+        border: 1px solid #3be189;
+        border-radius: 5px;
+        background-color: #43f195;
+        font-size: 14px;
+        font-family: "Visby CF Bold";
+        letter-spacing: 0;
+        line-height: 16px;
+        display: inline-block;
+        color: #000000;
+      }
+    }
+    .gradbtn {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 42px;
+      width: 129px;
+      border-radius: 39px;
+      background: linear-gradient(
+        223.51deg,
+        #3fbc9c 0%,
+        #5190c2 50.89%,
+        #8754f2 100%
+      );
+      border: 0;
+      font-family: "Visby CF Bold";
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 14px;
+      color: #fff;
+    }
+    .yst {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-family: "Visby CF Bold";
+      color: #4f81e6;
+      line-height: 17px;
+    }
+    .tabtwotxt {
+      color: var(--text-color);
+      font-size: 13px;
+      font-family: "Visby CF Bold";
+      line-height: 16px;
+    }
+
+    .pending {
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #FBD04B;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 5px;
+			.pendingInner{
+				border-radius: 50%;
+				background-color: #FBD04B;
+				width: 80%;
+				height: 80%;
+			}
+		}
+		.staked{
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #92ea7c;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 5px;
+			.stakedInner{
+				border-radius: 50%;
+				background-color: #92ea7c;
+				width: 80%;
+				height: 80%;
+			}
+		}
+		.earlyStaked {
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #BDBEC1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 5px;
+			.earlyStakedInner{
+				border-radius: 50%;
+				background-color: #BDBEC1;
+				width: 80%;
+				height: 80%;
+			}
+		}
+  }
+}
+
+.stackmodal {
+  .modalheading {
+    color: var(--text-color);
+    font-size: 30px;
+    font-family: "Visby CF Extra Bold";
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .modaltext {
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: "Visby CF Bold";
+    line-height: 17px;
+  }
+  .modaltext1 {
+    opacity: 0.6;
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: "Visby CF Bold";
+    line-height: 17px;
+  }
+  .accept {
+    opacity: 0.6;
+    color: var(--text-color);
+    font-size: 12px;
+    font-family: "Visby CF Demi Bold";
+    line-height: 17px;
+  }
+  .collectionInfoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .collectionInfoCount {
+      font-size: 18px;
+      color: var(--text-color);
+    }
+    .userInfoWrapper {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      @media (max-width: 600px) {
+        margin-right: 10px;
+      }
+      .userInfo {
+        position: relative;
+        .userImg {
+          height: 52px;
+          width: 52px;
+          min-width: 40px;
+          border-radius: 5px;
+          object-fit: cover;
+        }
+      }
+      .userName {
+        font-size: 18px;
+        font-family: "Visby CF Extra Bold";
+        line-height: 21px;
+        color: var(--text-color);
+      }
+    }
+  }
+  .greenbox {
+    padding: 7px 8px 4px 8px;
+    border: 1px solid #3be189;
+    border-radius: 5px;
+    background-color: #43f195 !important;
+    font-size: 14px;
+    font-family: "Visby CF Bold";
+    letter-spacing: 0;
+    line-height: 16px;
+    display: inline-block;
+    color: #000000;
+  }
+  .price {
+    color: var(--text-color);
+    font-size: 26px;
+    font-family: "Visby CF Extra Bold";
+    line-height: 31px;
+  }
+  .pricesm {
+    opacity: 0.5;
+    color: var(--text-color);
+    font-size: 12px;
+    font-family: "Visby CF Bold";
+  }
+  .sbbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .gradbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    width: 220px;
+    border-radius: 39px;
+    background: linear-gradient(
+      223.51deg,
+      #3fbc9c 0%,
+      #5190c2 50.89%,
+      #8754f2 100%
+    );
+    border: 0;
+    font-family: "Visby CF Bold";
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+  }
+  .usemax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    font-size: 12px;
+    font-family: "Visby CF Bold";
+    color: var(--text-color);
+    line-height: normal;
+    width: 86px;
+    border: 1px solid #43f195;
+    border-radius: 5px;
+    padding: 0;
+  }
+  .pqlbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    font-size: 14px;
+    font-family: "Visby CF Bold";
+    color: var(--text-color);
+    line-height: normal;
+    width: 86px;
+    border-radius: 5px;
+    background-color: var(--bg-lightGray);
+    padding: 0;
+  }
+  .durationDrop {
+    font-size: 14px;
+  }
+}

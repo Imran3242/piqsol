@@ -1,0 +1,36 @@
+.carousel-with-arrows {
+  .slick-arrow {
+    bottom: -90px;
+    top: auto;
+    font-size: 40px;
+    line-height: 50;
+    height: 40px;
+    width: 40px;
+  }
+  .slick-prev {
+    left: 45%;
+    &:hover {
+
+      g {
+        stroke: #43f195;
+      }
+
+    }
+    @media (max-width: 1000px) {
+      left: 30%;
+    }
+  }
+  .slick-next {
+    right: 45%;
+    &:hover {
+
+      g {
+        stroke: #43f195;
+      }
+
+    }
+    @media (max-width: 1000px) {
+      right: 30%;
+    }
+  }
+}

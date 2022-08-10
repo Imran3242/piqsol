@@ -1,0 +1,54 @@
+.nftInfo {
+  a {
+    text-decoration: none !important;
+  }
+
+  .topInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .collection {
+      color: var(--text-color);
+      opacity: 0.5;
+      font-size: 13px;
+      font-family: "Visby CF Bold";
+    }
+    .sandbox {
+      color: #3770e3;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      .name {
+        font-size: 13px;
+        font-family: "Visby CF Bold";
+      }
+    }
+  }
+  .title {
+    color: var(--text-color);
+    font-family: "Visby CF Extra Bold" !important;
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+  .likeWrappers {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    .info {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      .icon {
+        font-size: 18px;
+        color: var(--text-color);
+        opacity: 0.4;
+      }
+      .count {
+        font-size: 13px;
+        color: var(--text-color);
+        opacity: 0.4;
+        font-family: "Visby CF Bold";
+      }
+    }
+  }
+}

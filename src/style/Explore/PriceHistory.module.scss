@@ -1,0 +1,16 @@
+.priceHistoryWrapper {
+  margin-top: 60px;
+  .title {
+    font-size: 27px;
+    color: var(--text-color);
+    font-family: "Visby CF Extra Bold";
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+}
+.topLevelItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,79 @@
+.settings {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .profileLeftItem {
+    border-right: 1px solid;
+    border-color: rgba($color: #979797, $alpha: 0.3);
+    padding-right: 30px;
+    height: 100%;
+  }
+
+  .profileRightItem {
+    padding-left: 10px !important;
+  }
+
+  .sideBarTitle {
+    color: #979797;
+    font-family: "Visby CF Bold";
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+  }
+  .tabstyle {
+    .Mui-selected {
+      color: var(--text-color);
+      background-color: #3be189;
+    }
+  }
+
+  .profileSideBarButton {
+    font-size: 14px;
+    font-family: "Visby CF Bold";
+    border-radius: 26px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 44px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    line-height: normal;
+    color: #000000;
+    min-height: auto;
+    margin-bottom: 10px;
+    svg {
+      path {
+        fill: var(--text-color);
+      }
+    }
+    &.active {
+      background-color: #3be189;
+    }
+
+    img {
+      width: 14px;
+    }
+  }
+
+  .pageTitle {
+    font-size: 2.5rem;
+    font-family: 'Visby CF Extra Bold';
+    color: var(--text-color);
+    margin-bottom: 30px;
+  }
+
+  .editButton {
+    width: 152px;
+    height: 43px;
+    border-radius: 39px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid #3770E3;
+    color: #3770E3;
+    font-family: "Visby CF Bold";
+
+    img {
+      width: 14px;
+    }
+  }
+}

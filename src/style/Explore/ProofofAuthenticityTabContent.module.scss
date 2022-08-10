@@ -1,0 +1,34 @@
+.ProofofAuthenticity {
+  .arrowIcon {
+    g {
+      opacity: 1;
+      stroke: var(--text-color);
+      stroke-width: 1.5px;
+    }
+  }
+  .Item {
+    border-radius: 14px;
+    background-color: var(--bg-alert-item);
+    padding:20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 20px;
+    .logoImg {
+      height: 15.68px;
+      width: 20px;
+      object-fit: contain;
+    }
+    .verifiedItem {
+        color: #3770E3;
+        font-family: "Visby CF Bold";
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .fontSize {
+        font-size: 14px;
+        font-family: "Visby CF Bold";
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.boxUploadButton {
+  position: relative;
+  display: inline-block;
+  .btnItem {
+    min-height: 195px;
+    width: 195px;
+    min-width: 195px;
+    border: 2px dashed var(--border-drag-btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--bg-drag-btn);
+    position: relative;
+
+    &::after {
+      content: "";
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      background-image: url("../../assets/icons/SVG/Image.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      opacity: 0.5;
+    }
+    svg {
+      path {
+        fill: red;
+      }
+    }
+
+    .MuiDropzonePreviewList-removeButton {
+      top: 0;
+      right: 0;
+    }
+    svg.MuiDropzoneArea-icon {
+      display: none;
+    
+    }
+    .MuiDropzoneArea-textContainer {
+      min-height: 195px;
+      width: 195px;
+      min-width: 195px;
+      position: relative;
+    }
+    .MuiDropzonePreviewList-imageContainer {
+      position: static;
+
+      .MuiDropzonePreviewList-image {
+        position: absolute;
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+        margin: auto;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

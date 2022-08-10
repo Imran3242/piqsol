@@ -1,0 +1,36 @@
+.ListItemForSaleWrapper {
+  padding: 40px 10px;
+  .goBackBtn {
+    color: #3770e3;
+    font-size: 19px;
+    font-family: 'Visby CF Bold';
+    padding: 0;
+    position: relative;
+    left: -5px;
+    &:hover {
+      background-color: transparent;
+    }
+    .backIcon {
+      font-size: 30px;
+    }
+  }
+  .pageTitle {
+    font-size: 40px;
+    color: var(--text-color);
+    font-family: 'Visby CF Extra Bold';
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+}
+.actionBtn {
+  border-radius: 39px !important;
+  height: 55px;
+  padding-left: 49px !important;
+  padding-right: 49px !important;
+  background: linear-gradient(223.51deg, #3fbc9c 0%, #5190c2 50.89%, #8754f2 100%) !important;
+  font-size: 19px !important;
+  font-weight: bold !important;
+  font-family: 'Visby CF Bold' !important;
+  min-width: 142px !important;
+  color: var(--text-btn) !important;
+}

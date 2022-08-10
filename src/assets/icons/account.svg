@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>13ECA65F-DAFD-490F-BC9B-6B71B7B306B7@1.5x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="Login" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="A01" transform="translate(-35.000000, -182.000000)">
+            <g id="Group-45" transform="translate(0.000000, -0.500000)">
+                <g id="Side-Menu-Login" transform="translate(0.000000, 100.500000)">
+                    <g id="Menu-Bar" transform="translate(19.500000, 3.000000)">
+                        <g id="Icon---Profile" transform="translate(16.000000, 79.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Icon---Profile-(Background/Mask)" fill-opacity="0" fill="#000000" xlink:href="#path-1"></use>
+                            <path d="M20,18.5989666 C20,21.3199937 16.3146181,22 12,22 C7.66237354,22 4,21.2949936 4,18.5749664 C4,15.8539393 7.68538189,15.1739321 12,15.1739321 C16.3386269,15.1739321 20,15.8789394 20,18.5989666 Z M17.2939854,7.29105282 C17.2939854,10.2280822 14.9391022,12.583106 12,12.583106 C9.06189823,12.583106 6.70601487,10.2280822 6.70601487,7.29105282 C6.70601487,4.35402346 9.06189823,2 12,2 C14.9391022,2 17.2939854,4.35402346 17.2939854,7.29105282 Z" id="Vector" fill="#000000" opacity="0.363975888" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

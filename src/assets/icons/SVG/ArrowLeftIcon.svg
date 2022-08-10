@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="22px" viewBox="0 0 44 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C5EBDC25-7C24-463F-926B-C6DF48161246@1.5x</title>
+    <g id="Login" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.500419253" stroke-linecap="round" stroke-linejoin="round">
+        <g id="C01" transform="translate(-663.000000, -2735.000000)" stroke="#7A7A7A" strokeWidth="2">
+            <g id="Group-50" transform="translate(151.000000, 2163.000000)">
+                <g id="arrow" transform="translate(513.000000, 573.000000)">
+                    <g id="streamline-icon-move-up-1@48x48-copy" transform="translate(21.000000, 10.000000) scale(-1, 1) rotate(-270.000000) translate(-21.000000, -10.000000) translate(11.000000, -11.000000)">
+                        <line x1="10" y1="42" x2="10" y2="0" id="Path"></line>
+                        <polyline id="Path" points="0 9.88235294 10 0 20 9.88235294"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

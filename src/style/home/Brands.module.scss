@@ -1,0 +1,19 @@
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  margin-bottom: 80px;
+  background-color: #fff;
+  border-radius: 14px;
+
+  @media screen and (max-width: '900px') {
+    padding: 0;
+  }
+  
+  img {
+    width: 160px;
+  }
+}

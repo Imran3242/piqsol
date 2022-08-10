@@ -1,0 +1,49 @@
+.messengerWrapper {
+  padding: 40px 10px;
+  .pageTitle {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    font-family: "Visby CF Extra Bold";
+  }
+
+  .messageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 900px) {
+      flex-direction: column-reverse;
+    }
+
+    .emptyMessage {
+      text-align: center;
+      font-size: 40px;
+      color: var(--text-color);
+      margin-bottom: 30px;
+      font-family: "Visby CF Bold";
+
+      @media (max-width: 900px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .loadMoreWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    .loadMoreButton {
+      text-align: center;
+      border-radius: 39px !important;
+      margin-top: 10px;
+      height: 55px;
+      font-weight: 600;
+      font-size: 19px;
+      padding: 20px;
+      background-color: var(--text-color);
+      color: var(--bg-white);
+    }
+  }
+}

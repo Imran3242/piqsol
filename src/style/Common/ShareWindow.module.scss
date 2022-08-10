@@ -1,0 +1,30 @@
+.dialogWrapper {
+  position: absolute;
+
+  .modalTitle {
+    font-size: 30px;
+    font-family: "Visby CF Extra Bold";
+    text-align: center;
+    color: var(--text-color);
+  }
+  .closeIcon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.5;
+  }
+
+  .infoWrapper {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+  }
+
+  .dialogeContent {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+}

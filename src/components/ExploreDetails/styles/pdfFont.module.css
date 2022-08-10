@@ -1,0 +1,66 @@
+div {
+  font-family: "Visby CF Medium", "Arial", sans-serif;
+  font-size: 12px;
+}
+.copyrightSection {
+  text-align: center;
+  font-size: 10px;
+  display: block !important;
+}
+
+
+@font-face {
+  font-family: "Visby CF Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Bold"),
+    url("../../../assets/pdf-fonts/VisbyCF-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Visby CF Demi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Demi Bold"),
+    url("../../../assets/pdf-fonts/VisbyCF-DemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Visby CF Extra Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Extra Bold"),
+    url("../../../assets/pdf-fonts/VisbyCF-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Visby CF Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Heavy"),
+    url("../../../assets/pdf-fonts/VisbyCF-Heavy.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Visby CF Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Light"),
+    url("../../../assets/pdf-fonts/VisbyCF-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Visby CF Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Medium"),
+    url("../../../assets/pdf-fonts/VisbyCF-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Visby CF Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby CF Thin"),
+    url("../../../assets/pdf-fonts/VisbyCF-Thin.ttf") format("ttf");
+}

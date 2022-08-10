@@ -1,0 +1,76 @@
+[
+  {
+    "communityLinks": [
+      "[{\"name\":\"domain\",\"value\":\"\"},{\"name\":\"twitter\",\"value\":\"\"},{\"name\":\"discord\",\"value\":\"\"},{\"name\":\"telegram\",\"value\":\"\"},{\"name\":\"medium\",\"value\":\"\"}]"
+    ],
+    "isVerified": false,
+    "_id": "62e0eb99c6101a01c0834fbe",
+    "userId": {
+      "communityLinks": [],
+      "url": null,
+      "isVerified": false,
+      "isBlocked": false,
+      "chainType": "solana",
+      "_id": "62e0eb45c6101a01c0834f73",
+      "walletAddress": "6TXTxd67i2218CW9uN9H9gSqa4N6oWHUNSA7PFUZronv",
+      "ipAddress": "127.0.0.1",
+      "isBlock": false,
+      "nonce": 848606,
+      "createdAt": "2022-07-27T07:37:41.778Z",
+      "updatedAt": "2022-08-03T13:59:52.864Z",
+      "__v": 0,
+      "tokenAuth": "TI3a3AOqki8bcXAJtlOJ4HtaARoGiEjbZYiiL9zDSXy8Vl5eGQGmt4vwiaTa7G"
+    },
+    "fullName": "SolarNauts",
+    "avatar": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658952812707image1.png",
+    "cover": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658952814067image5.jpg",
+    "description": "From the depths of space, comes a colony of space travelers that have made it to the distant parts of the universe. With help from their specially designed space suits and hardcore helmets, these SolarNauts will survive anywhere. You don't have to be a rocket scientist to hop aboard on this collection of Unique NFTs of SolarNauts showing off their amazing view of the Cosmos. Be Quick and Join them to the Moon and Beyond...",
+    "url": "https://www.instagram.com/solarnautsnft/",
+    "createdAt": "2022-07-27T07:39:05.595Z",
+    "updatedAt": "2022-07-27T07:39:05.595Z",
+    "__v": 0,
+    "blockchainType": "solana",
+    "avgSalePrice": 0,
+    "totalVolume": 0,
+    "nftCount": 450,
+    "floorPrice": 0,
+    "avgFloorPrice": 0
+  },
+  {
+    "communityLinks": [
+      "[{\"name\":\"domain\",\"value\":\"\"},{\"name\":\"twitter\",\"value\":\"\"},{\"name\":\"discord\",\"value\":\"\"},{\"name\":\"telegram\",\"value\":\"\"},{\"name\":\"medium\",\"value\":\"\"}]"
+    ],
+    "isVerified": false,
+    "_id": "62ea8e16285dbdcece4206c3",
+    "userId": {
+      "communityLinks": [],
+      "url": null,
+      "isVerified": false,
+      "isBlocked": false,
+      "chainType": "polygon",
+      "_id": "62ea8d88260d7b191ea21404",
+      "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+      "ipAddress": "127.0.0.1",
+      "isBlock": false,
+      "nonce": 903629,
+      "createdAt": "2022-08-03T15:00:24.989Z",
+      "updatedAt": "2022-08-04T10:45:14.505Z",
+      "__v": 0,
+      "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+    },
+    "fullName": "Scuba Hunters",
+    "avatar": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948880124image2.jpg",
+    "cover": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948881986image4.png",
+    "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now.",
+    "url": "https://www.instagram.com/scubahuntersnft/",
+    "createdAt": "2022-07-27T19:08:02.617Z",
+    "updatedAt": "2022-07-27T19:08:02.617Z",
+    "__v": 0,
+    "blockchainType": "polygon",
+    "avgSalePrice": 0,
+    "totalVolume": 0,
+    "nftCount": 500,
+    "floorPrice": 0,
+    "avgFloorPrice": 80
+  }
+]

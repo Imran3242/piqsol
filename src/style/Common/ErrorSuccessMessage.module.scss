@@ -1,0 +1,53 @@
+.modalBodyWrapper {
+  .piqSolLogo {
+    display: flex;
+    justify-content: center;
+    .piqSolLogoImg {
+      height: 95px;
+      width: 95px;
+      object-fit: contain;
+    }
+  }
+  .tokenCount {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 14px;
+    color: var(--text-color);
+    font-family: 'Visby CF Bold';
+  }
+  .description {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color);
+    opacity: 0.85;
+    margin-top: 20px;
+    font-family: "Visby CF Medium";
+  }
+  .actionWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .actionButtonSuccess {
+      background-color: #43f195;
+      font-family: 'Visby CF Bold';
+      border-radius: 40px;
+      color: #000000;
+      height: 58px;
+      width: 182px;
+      font-size: 19px;
+      font-weight: 600;
+    }
+    .actionButtonFailed {
+      background-color: #f14343;
+      font-family: 'Visby CF Bold';
+      border-radius: 40px;
+      color: #ffffff;
+      height: 58px;
+      width: 182px;
+      font-size: 19px;
+      font-weight: 600;
+    }
+  }
+}

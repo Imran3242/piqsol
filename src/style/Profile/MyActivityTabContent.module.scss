@@ -1,0 +1,93 @@
+.activityTableContainer {
+  th,
+  td {
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+      text-align: right;
+    }
+  }
+  .tableHead {
+    .tableHeadCell {
+      font-size: 0.875rem;
+      color: var(--text-color);
+      font-family: 'Visby CF Demi Bold';
+      border: none;
+    }
+  }
+
+  .loadMoreWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    .loadMoreButton {
+      text-align: center;
+      border-radius: 39px !important;
+      margin-top: 10px;
+      height: 55px;
+      font-weight: 600;
+      font-size: 19px;
+      padding: 20px;
+      background-color: var(--text-color);
+      color: var(--bg-white);
+
+      &.disabled {
+        background-color: rgba(55, 112, 227, 0.07);
+        color: gray;
+      }
+    }
+  }
+
+  .tableRow {
+    td {
+      border-bottom: 1px solid var(--border-color);
+      font-family: 'Visby CF Demi Bold';
+    }
+    .tableCell {
+      display: flex;
+      @media (max-width: 600px) {
+        gap: 30px;
+      }
+    }
+    .cellItem {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex: 1;
+    }
+    .userImg {
+      height: 42px;
+      width: 42px;
+      min-height: 42px;
+      min-width: 42px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .userName {
+      color: #3770e3;
+      font-size: 0.875rem;
+    }
+    .nftName {
+      color: var(--text-color);
+      font-size: 16px;
+    }
+    .icon {
+      height: 20px;
+      width: 25px;
+      object-fit: contain;
+    }
+    .item {
+      font-size: 1rem;
+      font-weight: normal;
+      color: var(--text-color);
+    }
+    .metInfo {
+      font-size: 1rem;
+      font-weight: normal;
+      color: #3770e3;
+    }
+  }
+}

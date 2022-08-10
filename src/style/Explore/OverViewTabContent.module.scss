@@ -1,0 +1,86 @@
+.tableWrapper {
+  .row {
+    border-bottom: 1px solid var(--border-color);
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+    .item {
+      font-size: 13px;
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+      word-break: break-all;
+    }
+  }
+}
+.pdfContent {
+  text-align: left;
+  z-index: 999999;
+
+  .logo {
+    text-align: center;
+    margin-top: 20px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    display: list-item;
+  }
+
+  table {
+    font-size: 12px;
+    width: 100%;
+    font-family: "Visby CF Bold";
+    tr {
+      th {
+        border: 1px solid gray;
+        padding: 10px;
+        font-family: "Visby CF Extra Bold";
+        border-radius: 9px;
+      }
+      td {
+        border: 1px solid gray;
+        padding: 10px;
+        word-break: break-all;
+        font-family: "Visby CF Bold";
+        border-radius: 9px;
+      }
+    }
+  }
+}
+.copyrightsDataWrapper{
+  margin-top: 10px;
+  .titleItem{
+    font-family: "Visby CF Extra Bold";
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: var(--text-color);
+  }
+  .subtitle{
+    font-family: "Visby CF Extra Bold";
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  .listWrapper{
+    padding-left: 20px;
+    li{
+      font-size: 14px;
+      color: var(--text-color);
+      opacity: 0.6;
+      font-family: 'Visby CF Extra Bold';
+    }
+  }
+}

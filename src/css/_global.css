@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Visby CF Medium';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-body);
+}
+.VisbyBold {
+  font-family: 'Visby CF Bold' !important;
+}
+.VisbyExtrabold {
+  font-family: 'Visby CF Extra Bold' !important;
+}
+.VisbyMedium {
+  font-family: 'Visby CF Medium' !important;
+}
+.MuiDialog-paper {
+  border-radius: 15px !important;
+}
+.VisbyHeavy {
+  font-family: 'Visby CF Heavy' !important;
+}
+.VisbyDemiBold{
+  font-family: 'Visby CF Demi Bold' !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  max-width: 100%;
+}
+
+.radius14 {
+  border-radius: 14px;
+}
+
+.Resources_resources__7hIYe .slick-dots {
+  bottom: 10px !important;
+}
+.Resources_resources__7hIYe .slick-dots li button:before {
+  color: #d8d8d8;
+}
+.Resources_resources__7hIYe .slick-dots li.slick-active button:before {
+  color: #fff;
+}
+.Resources_resources__7hIYe .slick-dots li {
+  margin: 0;
+}
+button {
+  box-shadow: none !important;
+}
+.button {
+  border-radius: 39px !important;
+  font-size: 19px !important;
+  padding: 11px 40px !important;
+  text-decoration: none;
+  box-shadow: none !important;
+}
+.btn-bg-purple {
+  background-color: #9945fe !important;
+}
+.btn-bg-green {
+  background-color: #43f195 !important;
+}
+.docuration-none {
+  text-decoration: none;
+}
+.color-black {
+  color: var(--text-color);
+}
+
+aside.emoji-picker-react{
+  background: var(--bg-white) !important;
+}
+.emoji-picker-react input.emoji-search{
+  background: var(--bg-white) !important;
+  color: var(--text-color);
+}
+.emoji-picker-react .emoji-group:before{
+  background: var(--bg-white) !important;
+}
+
+.MuiMenu-list {
+  background-color: var(--bg-body);
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.MuiSelect-icon{
+  fill: var(--text-color) !important;
+  opacity: 0.5;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: white;
+}
+
+.Explore_explorePageWrapper__mNjwi .userNameExplore {
+  font-size: 18px !important;
+}
+
+.gradientButton {
+  transition: all 0.4s ease !important;
+  overflow: hidden;
+  z-index: 1;
+}
+.fill-two {
+  position: absolute;
+  background-image: linear-gradient(
+    223.51deg,
+    #3fbc9c 0%,
+    #5190c2 50.89%,
+    #8754f2 100%
+  );
+  /* background-size: 150% 150%; */
+  height: 55px;
+  width: 100%;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+
+.gradientButton:hover .fill-two {
+  -webkit-animation: gradient 3s ease infinite;
+  -moz-animation: gradient 3s ease infinite;
+  animation: gradient 3s ease infinite;
+}
+
+.globalDropdown {
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.23) !important;
+  border-radius: 9px !important;
+}
+
+.globalDropdown ul {
+  padding: 0 !important;
+}
+
+.globalDropdown ul {
+  font-family: 'Visby CF Bold';
+  color: var(--text-color);
+}
+
+.globalDropdown li.Mui-selected {
+  background-color: var(--bg-white) !important;
+  color: #7268e2 !important;
+}
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-lightGray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 5px;
+}
+.MuiDialog-paper {
+  background: var(--bg-body) !important;
+}
+.MuiInputBase-colorPrimary:hover .MuiOutlinedInput-notchedOutline {
+  border-color: var(--border-color) !important;
+}
+
+.similarBlogSlider .MuiGrid-item {
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.color-red {
+  color: red !important;
+}
+.color-green {
+  color: green !important;
+}
+
+
+.warning-msg {
+  margin-top: 15px !important;
+  font-style: italic;
+  font-family: "Visby CF Bold" !important;
+}
+
+table th {
+  border-bottom: none !important;
+}
+
+table tr:last-child td {
+  border-bottom: none !important;
+}
+
+.MuiSelect-select:focus {
+  background: none !important;
+}
+
+.pointerEventsNone {
+  pointer-events: none;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

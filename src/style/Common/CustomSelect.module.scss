@@ -1,0 +1,52 @@
+.customSelect {
+  border-radius: 26px !important;
+  height: 45px;
+  width: 100% !important;
+  min-width: 185px;
+  border: 2px solid;
+  border-color: rgba($color: #ffffff, $alpha: 0.12);
+  padding-left: 8px;
+  z-index: 1;
+  span {
+    color: var(--text-color);
+    font-family: "Visby CF Bold";
+  }
+  div {
+    color: var(--text-color);
+    font-family: "Visby CF Bold";
+  }
+
+  svg {
+    font-size: 20px;
+  }
+
+  fieldset {
+    border-color: rgba(0, 0, 0, 0.23) !important;
+    border-width: 1px !important;
+  }
+
+  .menuItemText {
+    color: var(--text-color);
+    font-family: "Visby CF Bold";
+    font-size: 14px;
+  }
+  .menuItemTextItem {
+    font-family: "Visby CF Bold";
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  .opaicty {
+    opacity: 0.5;
+  }
+  .iconDown {
+    color: var(--text-color);
+    position: absolute;
+    right: 20px;
+    z-index: -1;
+  }
+}
+.menuItemText {
+  color: var(--text-color);
+  font-family: "Visby CF Bold";
+  font-size: 14px;
+}

@@ -1,0 +1,36 @@
+.myWalletCardItem {
+  position: relative;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+  border: 1px solid var(--border-color) !important;
+  background: var(--bg-white);
+  height: 100%;
+  .importButton {
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    border-radius: 39px !important;
+    background-color: rgba($color: #3770e3, $alpha: 0.16);
+    color: #3770e3;
+  }
+  .cardName {
+    color: var(--text-color);
+    font-size: 18px;
+    font-family: "Visby CF Bold";
+  }
+  .playIcon {
+    height: 39px;
+    width: 39px;
+    background-color: white;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.27);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3770e3;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    z-index: 9;
+  }
+}

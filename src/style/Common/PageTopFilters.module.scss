@@ -1,0 +1,25 @@
+.searchWrapper {
+  background: var(--bg-lightGray);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  .searchIcon {
+    color: #828282;
+  }
+  .searchInput {
+    width: 100%;
+    margin-left: 10px;
+    input {
+      width: 100%;
+      color: var(--text-color);
+      font-family: 'Visby CF Demi Bold';
+      &::placeholder {
+        color: var(--text-color);
+        font-family: 'Visby CF Demi Bold';
+      }
+    }
+  }
+}

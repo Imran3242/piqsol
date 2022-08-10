@@ -1,0 +1,61 @@
+.collectionInfoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .collectionInfoCount {
+    font-size: 18px;
+    font-family: 'Visby CF Demi Bold';
+    color: var(--text-color);
+  }
+  .userInfoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .userInfo {
+      position: relative;
+      .userImg {
+        height: 39px;
+        width: 39px;
+        min-width: 39px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .verifiedIcon {
+        color: #2d67ff;
+        position: absolute;
+        top: 0;
+        right: -7px;
+        font-size: 15px;
+      }
+    }
+    .userName {
+      color: var(--text-color);
+      font-size: 14px;
+      font-family: "Visby CF Bold";
+    }
+  }
+}
+.tableBodyCell {
+  font-size: 14px;
+  font-weight: 800 !important;
+  color: var(--text-color) !important;
+  font-family: "Visby CF Bold" !important;
+
+  .tableLastCell {
+    padding-right: 0;
+  }
+}
+.price {
+  margin-right: 7px;
+}
+
+.priceInfo {
+  display: flex;
+  max-height: 20px;
+}
+.textGreen {
+  color: #5ac62f !important;
+}
+.textRed {
+  color: #ff4747 !important;
+}

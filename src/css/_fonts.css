@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Montserrat Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Montserrat Regular"),
+      url("../assets/fonts/Montserrat-Regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Montserrat Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Montserrat Bold"),
+    url("../assets/fonts/Montserrat-Bold.woff") format("woff");
+  }
+ 
+  @font-face {
+    font-family: "Visby CF Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Bold"), url("../assets/fonts/VisbyCF-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Visby CF Demi Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Demi Bold"),
+      url("../assets/fonts/VisbyCF-DemiBold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Visby CF Extra Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Extra Bold"),
+      url("../assets/fonts/VisbyCF-ExtraBold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Visby CF Heavy";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Heavy"),
+      url("../assets/fonts/VisbyCF-Heavy.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Visby CF Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Light"),
+      url("../assets/fonts/VisbyCF-Light.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Visby CF Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Medium"),
+      url("../assets/fonts/VisbyCF-Medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Visby CF Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Visby CF Thin"),
+      url("../assets/fonts/VisbyCF-Thin.woff") format("woff");
+  }

@@ -1,0 +1,226 @@
+.messageContainerWrapper {
+  position: relative;
+  height: 100%;
+  padding-bottom: 80px;
+
+  .headerArea {
+    background-color: var(--bg-alert-item);
+    padding: 20px 20px 17px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .timeAgoInfo {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      .timeIcon {
+        font-size: 16px;
+        color: var(--text-color);
+      }
+      .timeText {
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--text-color);
+        font-family: "Visby CF Demi Bold";
+      }
+    }
+  }
+  .chatInfoWrapper {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    .chatImageWrapper {
+      position: relative;
+      .chatUserImg {
+        height: 48px;
+        width: 48px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .profileImg {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0;
+        right: -12px;
+      }
+    }
+    .userName {
+      font-size: 18px;
+      color: var(--text-color);
+      font-weight: 600;
+      font-family: 'Visby CF Bold';
+    }
+    .messageInfoWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Visby CF Bold';
+      .timeAgo {
+        color: #646464;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: 'Visby CF Bold';
+      }
+    }
+  }
+  .topMetaInfo {
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+    .info {
+      .userId {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-color);
+      }
+      .collectionWrapper {
+        .nftName {
+          color: var(--text-color);
+          font-size: 13px;
+          font-family: "Visby CF Bold";
+        }
+        .collectionTitle {
+          color: var(--text-color);
+          font-size: 14px;
+          opacity: 0.67;
+          font-family: "Visby CF Bold";
+        }
+        .collectionName {
+          color: #3770e3;
+          font-size: 14px;
+          font-family: "Visby CF Bold";
+        }
+      }
+    }
+    .priceInfo {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      color: var(--text-color);
+      font-family: "Visby CF Extra Bold";
+      .logoImg {
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .priceInfo {
+        font-size: 19px;
+        font-weight: 800;
+        color: var(--text-color);
+      }
+      .price {
+        font-size: 12px;
+        font-family: "Visby CF Bold";
+        color: var(--text-color);
+        opacity: 0.4;
+      }
+    }
+  }
+  .messageArrivedInfo {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    .badge {
+      background-color: #e1e2e5;
+      color: rgba($color: #000000, $alpha: 0.45);
+      display: inline-block;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      position: relative;
+      top: 13px;
+    }
+  }
+  .messageContainer {
+    padding: 20px;
+    max-height: 60vh;
+    overflow: auto;
+  }
+  .sendMessageWrapper {
+    background-color: var(--bg-alert-item);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: "Visby CF Bold";
+
+    .typeMessageInput {
+      width: 100%;
+      border: none;
+      background: transparent;
+      color: var(--text-color);
+
+      textarea {
+      font-family: "Visby CF Bold";
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .sendMessageActionArea {
+      display: flex;
+      gap: 5px;
+      .iconSize {
+        font-size: 18px;
+        color: var(--text-color);
+        opacity: 0.5;
+      }
+      .sendButton {
+        height: 40px;
+        width: 40px;
+        padding: 0;
+        background-color: #3770e3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .sendIcon {
+          position: relative;
+          left: -1px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .uploadFileWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+    .selectedFileWrapper {
+      position: relative;
+
+      .fileToUpload {
+        background: #dee1de;
+        color: var(--text-color);
+        font-family: "Visby CF Bold";
+        font-size: 17px;
+        text-align: center;
+        // word-wrap: all;
+        border-radius: 0.3rem;
+        margin: 0.5rem;
+        padding: 0.3rem;
+      }
+      .selectCancel {
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        background: #dee1de;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

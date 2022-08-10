@@ -1,0 +1,88 @@
+.OwnerNftWrapper {
+  margin: 30px 0;
+  .title {
+    font-size: 40px;
+    font-family: "Visby CF Extra Bold";
+    font-weight: 800;
+    color: var(--text-color);
+    text-align: center;
+  }
+  .tableWrapper {
+    margin-top: 30px;
+    .tableHeadCell {
+      font-size: 14px;
+      font-family: "Visby CF Bold";
+      font-weight: 800;
+      color: var(--text-color);
+      border-bottom: 0;
+    }
+    .tableBodyCell {
+      font-size: 14px;
+      color: var(--text-color);
+      font-weight: 500;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .walletAddressInfo {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      .walletAddressLogo {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .walletAddressInfo {
+        color: #3770e3;
+        font-size: 14px;
+      }
+    }
+    .progressBar {
+      background-color: #e5e5e5;
+      > span {
+        background-color: #43f195;
+      }
+    }
+		.progressWrapper{
+			position: relative;
+		}
+    .progressTooltip {
+      background: #000000;
+      border-radius: 3px;
+      color: #ffffff;
+      display: inline-flex;
+      justify-content: center;
+      position: absolute;
+			padding: 3px 6px;
+      top: 5px;
+      left: 0;
+      transform: translateX(calc(-50% - 5px));
+			font-size: 12px;
+			top: -33px;
+      font-family: "Visby CF Bold";
+      &::before {
+        content: '';
+        display: inline-block;
+        border: 7px solid transparent;
+        border-width: 1px;
+        border-top-color: #000000;
+        bottom: -16px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+      }
+      &::after {
+        content: '';
+        display: inline-block;
+        border: 7px solid transparent;
+        border-top-color: #000000;
+        position: absolute;
+        bottom: -13px;
+        left: 50%;
+        transform: translateX(-50%);
+				z-index: 1;
+      }
+    }
+  }
+}

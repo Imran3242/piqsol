@@ -1,0 +1,83 @@
+.exploreDetailCard {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border: 1px solid var(--nft-border-color) !important;
+  border-radius: 18px !important;
+
+  .mainImg{
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+  }
+  .userInfoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    .userImg {
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .userName {
+      font-size: 12px;
+      color: var(--text-color);
+      opacity: 0.42;
+      font-family: 'Visby CF Bold';
+    }
+    .userDesignation {
+      font-size: 13px;
+      color: var(--text-color);
+      font-family: 'Visby CF Bold';
+      word-break: break-all;
+      max-width: 190px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .cardFooter {
+    background-color: var(--bg-card-footer);
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    border-radius: 0 0 18px 18px;
+    .cardDetails {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .actionBtn {
+        height: 34px;
+        width: 34px;
+        background-color: var(--bg-btn-action);
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
+        font-size: 14px;
+        color: #949494;
+      }
+    }
+  }
+  .favIcon {
+    font-size: 1.1rem;
+  }
+  .likedIcon {
+    color: red;
+    font-size: 1.1rem;
+  }
+  .viewIconBox{
+    display: flex;
+    align-items: center;
+    color: #949494
+
+    svg {
+      fill: var(--text-color);
+    }
+
+    button{
+      color: var(--text-color);
+      text-decoration: none;
+    }
+  }
+
+}

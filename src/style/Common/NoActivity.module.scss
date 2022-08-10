@@ -1,0 +1,18 @@
+.noItems {
+    display: flex;
+    justify-content: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      .noActivityImg{
+          height: 55px;
+          width: 55px;
+          object-fit: contain;
+          margin-bottom: 10px;
+      }
+    .noActivityText {
+      color: var(--text-color);
+          opacity: 0.3;
+          font-size: 20px;
+    }
+  }
+  

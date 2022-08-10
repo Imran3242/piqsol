@@ -1,0 +1,40 @@
+.resources {
+  padding: 50px 0;
+
+  .slideshow {
+    background-color: #1b1839;
+    border-radius: 14px;
+    margin-bottom: 50px;
+
+    img {
+      margin: 0 auto;
+      width: 70%;
+      padding: 30px;
+
+      @media screen and (max-width: '900px') {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.articlePagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    button{
+      font-family: "Visby CF Demi Bold";
+      font-weight: 500;
+      font-size: 14px;
+    }
+    &:first-child button,
+    &:last-child button {
+      border: 1px solid #e5e5e5;
+      width: 45px;
+      height: 45px;
+      border-radius: 26.5px;
+    }
+  }
+}

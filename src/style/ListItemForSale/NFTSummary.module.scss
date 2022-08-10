@@ -1,0 +1,107 @@
+.nftSummaryCardWrapper {
+  background-color: var(--bg-card) !important;
+  border: 1px solid var(--border-color);
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding: 30px;
+  width: 70%;
+  margin: 0 auto !important;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+  .title {
+    font-size: 30px;
+    font-family: 'Visby CF Extra Bold';
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .infoWrapper {
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+    .priceSection {
+      text-align: right;
+      .itemPrice {
+        font-size: 26px;
+        color: var(--text-color);
+        font-family: 'Visby CF Extra Bold';
+      }
+    }
+    .metaInfoWrapper {
+      margin: 10px 0;
+      display: flex;
+      gap: 10px;
+      .mainPhoto {
+        height: 74px;
+        width: 74px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .titleName {
+        font-size: 18px;
+        color: var(--text-color);
+        font-family: "Visby CF Extra Bold";
+      }
+      .detailInfo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 13px;
+        font-family: "Visby CF Bold";
+        color: #3770e3;
+      }
+    }
+    .royaltyFee {
+      font-size: 12px;
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+    }
+  }
+  .itemText {
+    font-size: 14px;
+    font-family: "Visby CF Bold";
+    opacity: 0.6;
+    color: var(--text-color);
+  }
+  .subtotal {
+    font-size: 12px;
+    font-family: "Visby CF Bold";
+    opacity: 0.6;
+    color: var(--text-color);
+  }
+  .infoItem {
+    margin-bottom: 20px;
+    .itemTitle {
+      font-size: 16px;
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+      margin-bottom: 5px;
+    }
+    .itemDescription {
+      font-size: 13px;
+      font-family: 'Visby CF Demi Bold';
+      color: var(--text-color);
+      opacity: 0.6;
+      list-style:disc outside none;
+      display:list-item; 
+    }
+  }
+  .modalActionWrapper {
+    text-align: center;
+    padding-top: 20px;
+    .mintNowBtn {
+      background: linear-gradient(
+        223.51deg,
+        #3fbc9c 0%,
+        #5190c2 50.89%,
+        #8754f2 100%
+      );
+      height: 58px;
+      width: 242px;
+      border-radius: 39px;
+      font-size: 19px;
+      font-family: "Visby CF Bold";
+      margin: auto;
+    }
+  }
+}

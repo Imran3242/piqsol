@@ -1,0 +1,57 @@
+.rankingWrapper {
+  padding: 45px 10px;
+  .titleWrapper {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .pageTitle {
+      font-size: 1.625rem;
+      font-weight: 800;
+      color: var(--text-color);
+      font-family: 'Visby CF Extra Bold';
+    }
+    .metaInfo {
+      font-family: 'Visby CF Bold';
+      font-size: 1rem;
+      color: #656565;
+    }
+    .filtersWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+.tableWrapper {
+  .tableHeadCell {
+    font-size: 14px;
+    font-family: 'Visby CF Bold';
+    font-weight: 800;
+    color: var(--text-color);
+    border-bottom: 0;
+    font-family: 'Visby CF Extra Bold';
+  }
+}
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  .loadMoreButton {
+    text-align: center;
+    border-radius: 39px !important;
+    margin-top: 10px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 20px;
+    background-color: var(--text-color);
+    color: var(--bg-white);
+  }
+}

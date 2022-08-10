@@ -1,0 +1,23 @@
+.TrendingArtwork {
+  margin-bottom: 130px;
+
+  .heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: var(--text-color);
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+
+  .cardItem {
+    margin: 10px 10px;
+    cursor: pointer;
+
+    img {
+      height: 328px;
+      object-position: bottom;
+    }
+  }
+}

@@ -1,0 +1,162 @@
+.bannerArea {
+  position: relative;
+  .bannerImgArea {
+    position: relative;
+    .bannerImg {
+      height: 220px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .bannerActions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: -27px;
+      padding-right: 20px;
+      @media (max-width: 600px) {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      .bannerActionItem {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+        background-color: var(--bg-btn-action);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        .icon {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .userImgArea {
+    display: flex;
+    justify-content: center;
+    margin-top: -85px;
+    @media (max-width: 600px) {
+      margin-top: -120px;
+    }
+    .userImg {
+      height: 145px;
+      width: 145px;
+      border: 5px solid white;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+      z-index: 1;
+    }
+  }
+  .userName {
+    position: relative;
+    margin-top: 15px;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Visby CF Extra Bold' !important;
+   
+    @media (max-width: 800px) {
+      font-size: 1.2rem;
+    }
+    .verifiedIcon {
+      position: absolute;
+      top: 1rem;
+      color: #2d67ff;
+      font-size: 20px;
+
+      @media (max-width: 800px) {
+        font-size: 0.8rem;
+        top: 0;
+      }
+     
+    }
+  
+   
+  }
+
+
+  .metaInfo {
+    font-size: 0.875rem;
+    color: var(--text-color);
+    text-align: center;
+    opacity: 0.6;
+    font-family: 'Visby CF Extra Bold' !important;
+    @media (max-width: 600px) {
+      font-size: 12px;
+    }
+  }
+  .createdInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    .createdTitle {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-color);
+      font-family: 'Visby CF Extra Bold';
+      @media (max-width: 800px) {
+        font-size: 12px;
+      }
+    }
+    .createdName {
+      color: #3770e3;
+      font-size: 20px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'Visby CF Extra Bold';
+      @media (max-width: 800px) {
+        font-size: 12px;
+      }
+    }
+  }
+  .countInfoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+    .countItem {
+      border-right: 1px solid #e4e4e4;
+      padding: 0 20px;
+      &:last-of-type {
+        border-right: 0;
+      }
+      .count {
+        font-size: 30px;
+        font-family: 'Visby CF Bold';
+        color: var(--text-color);
+        text-align: center;
+        @media (max-width: 800px) {
+          font-size: 18px;
+        }
+      }
+      .countInfo {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 500;
+        color: var(--text-color);
+        font-family: 'Visby CF Demi Bold';
+        @media (max-width: 800px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .description {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    color: var(--text-color);
+    opacity: 0.85;
+    font-family: 'Visby CF Medium';
+    @media (max-width: 800px) {
+      font-size: 12px;
+    }
+  }
+}

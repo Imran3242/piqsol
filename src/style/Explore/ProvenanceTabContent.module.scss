@@ -1,0 +1,39 @@
+.ProvenanceTabContentWrapper {
+  .item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    .title {
+      opacity: 0.79;
+      color: var(--text-color);
+      font-size: 1rem;
+      font-family: "Visby CF Extra Bold";
+    }
+    .dateItem {
+      width: 53px;
+      border-radius: 9px;
+      text-align: center;
+      font-family: 'Visby CF Bold';
+      font-weight: 700;
+      background-color: var(--bg-date-item);
+      padding: 10px;
+      color: #ffffff;
+      font-size: 12px;
+      text-align: center;
+    }
+    .description {
+      color: var(--text-color);
+      opacity: 0.6;
+      font-family: "Visby CF Bold";
+    }
+    .time {
+      display: flex;
+      align-items: flex-end;
+      color: var(--text-color);
+      opacity: 0.6;
+      font-size: 14px;
+      font-family: 'Visby CF Bold';
+      font-weight: 500;
+    }
+  }
+}

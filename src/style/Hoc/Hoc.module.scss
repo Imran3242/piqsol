@@ -1,0 +1,19 @@
+.mainContent {
+  position: relative;
+  min-height: 750px;
+}
+.leftSpace {
+  @media (min-width: 900px) and (max-width: 1400px) {
+    padding-left: 80px;
+  }
+}
+.closeIcon{
+  position: fixed;
+  z-index: 999;
+  color: white;
+  left: 312px;
+  top: 25px;
+  z-index: 1500;
+  font-size: 25px;
+  cursor: pointer;
+}

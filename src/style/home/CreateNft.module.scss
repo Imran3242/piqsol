@@ -1,0 +1,120 @@
+.homeNftSection {
+  background: var(--bg-home-nft);
+  padding-top: 80px;
+}
+
+.CreateNft {
+  margin-bottom: 80px;
+
+  .heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+
+  .description {
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--text-color);
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    .card:nth-child(2) {
+      margin-top: -30px;
+      margin-bottom: 30px;
+
+      @media screen and (max-width: '1200px') {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .card:nth-child(5) {
+      margin-top: -30px;
+      margin-bottom: 30px;
+
+      @media screen and (max-width: '1200px') {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      background: var(--bg-home-card);
+      border-radius: 14px;
+      padding: 30px;
+      width: 31%;
+
+      @media screen and (max-width: '1200px') {
+        width: 48%;
+      }
+
+      @media screen and (max-width: '680px') {
+        width: 100%;
+      }
+
+      .number {
+        color: #9945fe;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg-home-circle);
+        box-shadow: 0 12px 14px 0 rgba(16,16,16,0.1);
+        font-size: 40px;
+        position: relative;
+        font-family: 'Visby CF Bold';
+
+        .digits {
+          z-index: 1;
+        }
+
+        .circle {
+          width: 27px;
+          height: 27px;
+          border-radius: 50%;
+          opacity: 46%;
+          background-color: #43f195;
+          position: absolute;
+          top: 15px;
+          left: 20px;
+
+          &.right {
+            left: 45px;
+          }
+        }
+      }
+
+      .title {
+        font-size: 22px;
+        font-family: 'Visby CF Bold';
+        color: var(--text-color);
+      }
+
+      .desc {
+        text-align: center;
+        color: var(--text-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,213 @@
+.bannerMain {
+  background-image: var(--bg-home-banner);
+  background-position: center;
+  margin-bottom: 40px;
+  position: relative;
+
+  .homeBanner {
+    flex-grow: 1;
+    background-size: 100%;
+    background-position: bottom;
+
+    .bannerSection {
+      display: flex;
+      flex-wrap: wrap;
+
+      > div {
+        width: 50%;
+        @media screen and (max-width: 899px) {
+          width: 100%;
+        }
+      }
+
+      .leftContent {
+        padding-top: 70px;
+
+        @media screen and (max-width: 1350px) {
+          padding-left: 30px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      h3 {
+        font-family: "Visby CF Extra Bold";
+        padding-bottom: 15px;
+        font-size: 65px;
+        color: var(--text-color);
+
+        @media screen and (max-width: 1250px) {
+          font-size: 40px;
+        }
+      }
+
+      .description {
+        font-size: 22px;
+        padding-bottom: 30px;
+        color: var(--text-color);
+
+        @media screen and (max-width: 1250px) {
+          font-size: 16px;
+        }
+      }
+
+      .bannerButton {
+        border-radius: 39px;
+        font-size: 19px;
+        font-family: 'Visby CF Bold';
+        padding: 12px 30px;
+        box-shadow: none;
+
+        @media screen and (max-width: 1250px) {
+          font-size: 14px;
+        }
+
+        &.exploreButton {
+          color: #fff;
+          background-image: linear-gradient(
+            90deg,
+            #8754f1 0%,
+            #5190c2 50%,
+            #3fbc9c 100%
+          );
+        }
+
+        &.getStartedButton {
+          background-color: #43f195;
+          color: #000;
+          margin-left: 20px;
+          @media (max-width: 600px) {
+            margin-left: 0;
+          }
+        }
+      }
+      .btnWrapper{
+        display: flex;
+        @media (max-width: 600px) {
+          gap: 10px;
+          flex-direction: column;
+        }
+      }
+
+      .bestNft {
+        display: flex;
+        gap: 15px;
+        padding-top: 35px;
+        margin-bottom: 50px;
+        color: var(--text-color);
+
+        .hundred {
+          font-family: 'Visby CF Bold';
+          font-size: 20px;
+        }
+      }
+
+    }
+  }
+  .fontLarge{
+    font-size: 76px;
+    @media (max-width: 600px) {
+      font-size: 40px;
+    }
+  }
+  
+  .rightContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media screen and (max-width: 1600px) {
+      width: 40%;
+    }
+
+    @media screen and (max-width: 1400px) {
+      width: 45%;
+    }
+
+    @media screen and (max-width: 900px) {
+      position: unset;
+      width: 100%;
+    }
+
+    .rightImage {
+      background-image: var(--bg-combined-shape);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+      position: relative;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .cards {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+
+      @media screen and (max-width: 1200px) {
+        bottom: 0;
+        left: 15px;
+      }
+
+      @media screen and (max-width: 480px) {
+        left: 0;
+      }
+
+      .firstCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 25px;
+        width: 234px;
+        margin-left: 20px;
+        margin-bottom: -15px;
+        position: relative;
+
+        p {
+          padding: 0 12px;
+          color: #060606;
+          font-family: 'Visby CF Bold';
+        }
+        img:first-child {
+          width: 50px;
+          border: 1px solid #43f195;
+          border-radius: 50%;
+        }
+        img:last-child {
+          width: 21px;
+          height: 21px;
+          margin-right: 15px;
+        }
+      }
+
+      .secondCard {
+        border-radius: 13px;
+        background-image: var(--bg-banner-second-card);
+        box-shadow: 0 14px 24px 0 rgba(0, 0, 0, 0.1);
+        padding: 30px 25px 20px 25px;
+        color: var(--text-color);
+        border: 1px solid var(--banner-card-border);
+
+        p {
+          font-family: 'Visby CF Bold';
+        }
+        p:first-child {
+          font-size: 14px;
+          @media (max-width: 600px) {
+            font-size: 12px;
+          }
+        }
+        p:last-child {
+          font-size: 18px;
+          @media (max-width: 600px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

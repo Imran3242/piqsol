@@ -1,0 +1,73 @@
+.conversationCointainerWrapper {
+  .headerArea {
+    background-color: var(--bg-alert-item);
+    padding: 20px;
+    .searchWrapper {
+      background-color: var(--bg-white);
+      border-radius: 26px;
+      height: 52px;
+      padding: 0 20px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      .searchInput {
+        width: 100%;
+        input {
+          color: var(--text-color);
+          &::placeholder {
+            color: var(--text-color);
+          }
+        }
+      }
+      .searchIcon {
+        color: var(--text-color);
+        opacity: 0.5;
+      }
+    }
+  }
+  .archivedActionWrapper {
+    padding: 10px 20px;
+    .archiveAction {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      .actonIcon {
+        color: #3770e3;
+      }
+      .actionText {
+        font-size: 0.875rem;
+        color: var(--text-color);
+        font-family: 'Visby CF Demi Bold';
+      }
+    }
+  }
+}
+.messageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  .emptyMessage {
+    text-align: center;
+    font-size: 17px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    font-family: "Visby CF Bold";
+
+    
+
+    .emptyMessage {
+      text-align: center;
+      font-size: 20px;
+      color: var(--text-color);
+      margin-bottom: 30px;
+      font-family: "Visby CF Bold";
+
+   
+    }
+
+    .emptyImage {
+      width: 20rem;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.notification {
+  .pageTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-color);
+    font-family: 'Visby CF Extra Bold';
+  }
+  .pageSubTitle {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-family: 'Visby CF Demi Bold';
+  }
+  .checkboxText {
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: "Visby CF Bold";
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  .checkboxTextb {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    opacity: 0.5;
+    line-height: 20px;
+    margin-top: 5px;
+    font-family: 'Visby CF Demi Bold';
+  }
+  .checkboxWrap {
+    padding: 20px 0;
+    & + .checkboxWrap {
+      border-top: 1px solid;
+      border-color: rgba($color: #979797, $alpha: 0.3);
+    }
+  }
+  .profileRightItem {
+    padding-left: 15px;
+  }
+
+  .editButton {
+    width: 152px;
+    height: 43px;
+    border-radius: 39px;
+    cursor: pointer;
+    font-size: 16px;
+
+    img {
+      width: 14px;
+    }
+  }
+}

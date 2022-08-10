@@ -1,0 +1,72 @@
+.conversationButton {
+  width: 100%;
+  padding: 20px !important;
+  justify-content: start;
+  align-items: flex-start;
+  justify-content: start !important;
+  text-align: start;
+  &:hover {
+    background-color: var(--bg-footer) !important;
+  }
+
+  .conversationWrapper {
+    display: flex;
+    justify-content: space-between;
+    .newMessage {
+      color: rgb(81, 243, 81);
+    }
+  }
+
+  .chatInfoWrapper {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .chatImageWrapper {
+      position: relative;
+      .chatUserImg {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .profileImg {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0;
+        right: -12px;
+      }
+    }
+    .userName {
+      font-size: 1rem;
+      color: var(--text-color);
+      font-weight: 500;
+      font-family: "Visby CF Bold";
+    }
+    .userId {
+      font-size: 13px;
+      color: var(--text-color);
+      font-weight: 500;
+      font-family: "Visby CF Bold";
+    }
+    .messageInfoWrapper {
+      margin-top: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .messageText {
+        color: #646464;
+        font-size: 13px;
+        font-family: "Visby CF Bold";
+      }
+      .timeAgo {
+        color: #646464;
+        font-size: 12px;
+        font-family: "Visby CF Bold";
+      }
+    }
+  }
+}

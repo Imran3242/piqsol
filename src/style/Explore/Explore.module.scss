@@ -1,0 +1,49 @@
+.explorePageWrapper {
+  padding: 25px 10px;
+
+  .pageTitle {
+    font-size: 1.625rem;
+    font-family: 'Visby CF Extra Bold';
+    font-weight: 800;
+    color: var(--text-color);
+  }
+
+  .titleWrapper {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .metaInfo {
+      font-family: 'Visby CF Bold';
+      font-size: 16px;
+      color: #656565;
+    }
+    .filtersWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  .loadMoreWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    .loadMoreButton {
+      text-align: center;
+      border-radius: 39px !important;
+      margin-top: 10px;
+      height: 55px;
+      font-weight: 600;
+      font-size: 19px;
+      padding: 20px;
+      background-color: var(--text-color);
+    color: var(--bg-white);
+    }
+  }
+}

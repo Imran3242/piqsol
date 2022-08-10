@@ -1,0 +1,30 @@
+.blogSection {
+  margin-bottom: 80px;
+
+  .heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+
+  .slideStart {
+    padding: 0 10px;
+  }
+
+  .bottom {
+    text-align: center;
+    margin-top: 50px;
+
+    a {
+      text-decoration: none;
+    }
+    button {
+      font-family: 'Visby CF Bold';
+      box-shadow: none;
+    }
+  }
+}

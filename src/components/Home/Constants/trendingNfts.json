@@ -1,0 +1,507 @@
+[
+  {
+    "auctionDetail": {
+      "status": "active",
+      "auctionType": "fixedPrice",
+      "viewCount": 0,
+      "bids": [],
+      "fractionDimensions": [],
+      "processing": true,
+      "_id": "62ebd56f8cfd049bc6a07cb9",
+      "nftId": "62eab80755977b51256ed979",
+      "blockchainType": "polygon",
+      "auctionPrice": 80,
+      "royaltyFee": "5",
+      "tokenId": "497",
+      "marketplaceItemId": 493,
+      "collectionId": "62ea8e16285dbdcece4206c3",
+      "createdAt": "2022-08-04T14:19:27.004Z",
+      "updatedAt": "2022-08-04T16:49:44.489Z",
+      "__v": 0,
+      "userId": "62ea8d88260d7b191ea21404"
+    },
+    "nftId": "62eab80755977b51256ed979",
+    "price": 80,
+    "nftDetail": {
+      "currentPrice": 0,
+      "isActive": true,
+      "views": ["62e1333b97e87932345a2efc"],
+      "imported": false,
+      "_id": "62eab80755977b51256ed979",
+      "image": "https://piqsol.mypinata.cloud/ipfs/QmXqaht9qHzo115RykW5pM5VrHFbWpcMkbuSNvGKEfcEsD",
+      "name": "Scuba Hunters #115",
+      "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now. ",
+      "external_url": "",
+      "seller_fee_basis_points": 500,
+      "properties": {
+        "_id": "62eab80755977b51256ed97a",
+        "files": [
+          {
+            "_id": "62eab80755977b51256ed97b",
+            "uri": "https://piqsol.mypinata.cloud/ipfs/QmXqaht9qHzo115RykW5pM5VrHFbWpcMkbuSNvGKEfcEsD",
+            "type": "image/png"
+          }
+        ],
+        "creators": [
+          {
+            "_id": "62eab80755977b51256ed97c",
+            "address": "0x4229c4465659b19505e75052DC473f4E4fCE3c94",
+            "share": 100
+          }
+        ],
+        "category": "image"
+      },
+      "attributes": [
+        {
+          "_id": "62eab80755977b51256ed97d",
+          "trait_type": "Background",
+          "value": "Reed"
+        },
+        {
+          "_id": "62eab80755977b51256ed97e",
+          "trait_type": "Diving Suit",
+          "value": "The Classic Suit"
+        },
+        {
+          "_id": "62eab80755977b51256ed97f",
+          "trait_type": "Mask",
+          "value": "Ocean Dream"
+        },
+        {
+          "_id": "62eab80755977b51256ed980",
+          "trait_type": "Treasure",
+          "value": "Pearl Necklace"
+        },
+        {
+          "_id": "62eab80755977b51256ed981",
+          "trait_type": "Treasure Box",
+          "value": "Crystals"
+        }
+      ],
+      "symbol": "",
+      "artistName": "",
+      "collectionId": {
+        "communityLinks": [
+          "[{\"name\":\"domain\",\"value\":\"\"},{\"name\":\"twitter\",\"value\":\"\"},{\"name\":\"discord\",\"value\":\"\"},{\"name\":\"telegram\",\"value\":\"\"},{\"name\":\"medium\",\"value\":\"\"}]"
+        ],
+        "isVerified": false,
+        "_id": "62ea8e16285dbdcece4206c3",
+        "userId": "62ea8d88260d7b191ea21404",
+        "fullName": "Scuba Hunters",
+        "avatar": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948880124image2.jpg",
+        "cover": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948881986image4.png",
+        "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now.",
+        "url": "https://www.instagram.com/scubahuntersnft/",
+        "createdAt": "2022-07-27T19:08:02.617Z",
+        "updatedAt": "2022-07-27T19:08:02.617Z",
+        "__v": 0,
+        "blockchainType": "polygon"
+      },
+      "userId": {
+        "communityLinks": [],
+        "url": null,
+        "isVerified": false,
+        "isBlocked": false,
+        "chainType": "polygon",
+        "_id": "62ea8d88260d7b191ea21404",
+        "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+        "ipAddress": "127.0.0.1",
+        "isBlock": false,
+        "nonce": 903629,
+        "createdAt": "2022-08-03T15:00:24.989Z",
+        "updatedAt": "2022-08-04T10:45:14.505Z",
+        "__v": 0,
+        "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+      },
+      "tokenId": "497",
+      "txnHash": "0xd4d82deb131bd4f425e9633ab6edc3a9719da3c8f76ae7a923af9dfa88bc49f6",
+      "contractAddress": "0xBe7bfd25D7bf12Af2441660b48eB4FB5aa52e9dD",
+      "creators": [
+        {
+          "_id": "62eab80755977b51256ed982",
+          "address": "0x4229c4465659b19505e75052DC473f4E4fCE3c94",
+          "share": 100
+        }
+      ],
+      "blockchainType": "polygon",
+      "createdAt": "2022-08-03T18:01:43.723Z",
+      "updatedAt": "2022-08-04T16:50:34.419Z",
+      "__v": 0,
+
+      "creatorNftRights": {
+        "_id": "62ebd56f8cfd049bc6a07cbf",
+        "digitalCommercialization": true,
+        "digitalReproduction": true,
+        "physicalReproductionRights": true,
+        "publicDisplayOrStreamArtWork": true
+      },
+      "displayStreaming": {
+        "_id": "62ebd56f8cfd049bc6a07cbd",
+        "commercialPurposes": false,
+        "piqsolEcosystem": true,
+        "privatePurposes": true
+      },
+      "physicalReproduction": {
+        "_id": "62ebd56f8cfd049bc6a07cbe",
+        "multipleCommercialPurposes": false,
+        "noReproduction": true,
+        "oneCommercialPurposes": false,
+        "privatePurposes": false
+      },
+      "nftFavouriteCount": 1
+    },
+    "userDetail": {
+      "communityLinks": [],
+      "url": null,
+      "isVerified": false,
+      "isBlocked": false,
+      "chainType": "polygon",
+      "_id": "62ea8d88260d7b191ea21404",
+      "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+      "ipAddress": "127.0.0.1",
+      "isBlock": false,
+      "nonce": 903629,
+      "createdAt": "2022-08-03T15:00:24.989Z",
+      "updatedAt": "2022-08-04T10:45:14.505Z",
+      "__v": 0,
+      "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+    }
+  },
+
+  {
+    "auctionDetail": {
+      "status": "active",
+      "auctionType": "fixedPrice",
+      "viewCount": 0,
+      "bids": [],
+      "fractionDimensions": [],
+      "processing": false,
+      "_id": "62ebd2160e56d18e0cde4223",
+      "nftId": "62eab640db69e8994dcd3dc3",
+      "blockchainType": "polygon",
+      "auctionPrice": 80,
+      "royaltyFee": "5",
+      "tokenId": "479",
+      "marketplaceItemId": 476,
+      "collectionId": "62ea8e16285dbdcece4206c3",
+      "createdAt": "2022-08-04T14:05:10.871Z",
+      "updatedAt": "2022-08-04T14:05:10.871Z",
+      "__v": 0,
+      "userId": "62ea8d88260d7b191ea21404"
+    },
+    "nftDetail": {
+      "currentPrice": 0,
+      "isActive": true,
+      "views": [],
+      "imported": false,
+      "_id": "62eab640db69e8994dcd3dc3",
+      "image": "https://piqsol.mypinata.cloud/ipfs/QmRvW7ovbS5jCZdzQXeCJyiJkvc2rqAbbrDriqatrDMhDA",
+      "name": "Scuba Hunters #83",
+      "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now. ",
+      "external_url": "",
+      "seller_fee_basis_points": 500,
+      "properties": {
+        "_id": "62eab640db69e8994dcd3dc4",
+        "files": [
+          {
+            "_id": "62eab640db69e8994dcd3dc5",
+            "uri": "https://piqsol.mypinata.cloud/ipfs/QmRvW7ovbS5jCZdzQXeCJyiJkvc2rqAbbrDriqatrDMhDA",
+            "type": "image/png"
+          }
+        ],
+        "creators": [
+          {
+            "_id": "62eab640db69e8994dcd3dc6",
+            "address": "0x4229c4465659b19505e75052DC473f4E4fCE3c94",
+            "share": 100
+          }
+        ],
+        "category": "image"
+      },
+      "attributes": [
+        {
+          "_id": "62eab640db69e8994dcd3dc7",
+          "trait_type": "Background",
+          "value": "Reed"
+        },
+        {
+          "_id": "62eab640db69e8994dcd3dc8",
+          "trait_type": "Diving Suit",
+          "value": "The Superhero Suit"
+        },
+        {
+          "_id": "62eab640db69e8994dcd3dc9",
+          "trait_type": "Mask",
+          "value": "Black And Yellow"
+        },
+        {
+          "_id": "62eab640db69e8994dcd3dca",
+          "trait_type": "Treasure",
+          "value": "Ruby"
+        },
+        {
+          "_id": "62eab640db69e8994dcd3dcb",
+          "trait_type": "Treasure Box",
+          "value": "Cash"
+        }
+      ],
+      "symbol": "",
+      "artistName": "",
+      "collectionId": {
+        "communityLinks": [
+          "[{\"name\":\"domain\",\"value\":\"\"},{\"name\":\"twitter\",\"value\":\"\"},{\"name\":\"discord\",\"value\":\"\"},{\"name\":\"telegram\",\"value\":\"\"},{\"name\":\"medium\",\"value\":\"\"}]"
+        ],
+        "isVerified": false,
+        "_id": "62ea8e16285dbdcece4206c3",
+        "userId": "62ea8d88260d7b191ea21404",
+        "fullName": "Scuba Hunters",
+        "avatar": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948880124image2.jpg",
+        "cover": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948881986image4.png",
+        "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now.",
+        "url": "https://www.instagram.com/scubahuntersnft/",
+        "createdAt": "2022-07-27T19:08:02.617Z",
+        "updatedAt": "2022-07-27T19:08:02.617Z",
+        "__v": 0,
+        "blockchainType": "polygon"
+      },
+      "userId": {
+        "communityLinks": [],
+        "url": null,
+        "isVerified": false,
+        "isBlocked": false,
+        "chainType": "polygon",
+        "_id": "62ea8d88260d7b191ea21404",
+        "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+        "ipAddress": "127.0.0.1",
+        "isBlock": false,
+        "nonce": 903629,
+        "createdAt": "2022-08-03T15:00:24.989Z",
+        "updatedAt": "2022-08-04T10:45:14.505Z",
+        "__v": 0,
+        "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+      },
+      "tokenId": "479",
+      "txnHash": "0xf4f6460d0282026a9595036519705804d13a9aad45d321012ef9d7bc320b6366",
+      "contractAddress": "0xBe7bfd25D7bf12Af2441660b48eB4FB5aa52e9dD",
+      "creators": [
+        {
+          "_id": "62eab640db69e8994dcd3dcc",
+          "address": "0x4229c4465659b19505e75052DC473f4E4fCE3c94",
+          "share": 100
+        }
+      ],
+      "blockchainType": "polygon",
+      "createdAt": "2022-08-03T17:54:08.643Z",
+      "updatedAt": "2022-08-04T14:05:11.178Z",
+      "__v": 0,
+
+      "creatorNftRights": {
+        "_id": "62ebd2170e56d18e0cde4229",
+        "digitalCommercialization": true,
+        "digitalReproduction": true,
+        "physicalReproductionRights": true,
+        "publicDisplayOrStreamArtWork": true
+      },
+      "displayStreaming": {
+        "_id": "62ebd2170e56d18e0cde4227",
+        "commercialPurposes": false,
+        "piqsolEcosystem": true,
+        "privatePurposes": true
+      },
+      "physicalReproduction": {
+        "_id": "62ebd2170e56d18e0cde4228",
+        "multipleCommercialPurposes": false,
+        "noReproduction": true,
+        "oneCommercialPurposes": false,
+        "privatePurposes": false
+      },
+      "nftFavouriteCount": 0
+    },
+    "nftId": "62eab640db69e8994dcd3dc3",
+    "price": 80,
+    "userDetail": {
+      "communityLinks": [],
+      "url": null,
+      "isVerified": false,
+      "isBlocked": false,
+      "chainType": "polygon",
+      "_id": "62ea8d88260d7b191ea21404",
+      "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+      "ipAddress": "127.0.0.1",
+      "isBlock": false,
+      "nonce": 903629,
+      "createdAt": "2022-08-03T15:00:24.989Z",
+      "updatedAt": "2022-08-04T10:45:14.505Z",
+      "__v": 0,
+      "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+    }
+  },
+  {
+    "auctionDetail": {
+      "status": "active",
+      "auctionType": "fixedPrice",
+      "viewCount": 0,
+      "bids": [],
+      "fractionDimensions": [],
+      "processing": false,
+      "_id": "62ebd131d6944089cd2d0d34",
+      "nftId": "62eab58edb69e8994dcd3d0a",
+      "blockchainType": "polygon",
+      "auctionPrice": 80,
+      "royaltyFee": "5",
+      "tokenId": "470",
+      "marketplaceItemId": 467,
+      "collectionId": "62ea8e16285dbdcece4206c3",
+      "createdAt": "2022-08-04T14:01:21.148Z",
+      "updatedAt": "2022-08-04T14:01:21.148Z",
+      "__v": 0,
+      "userId": "62ea8d88260d7b191ea21404"
+    },
+    "nftDetail": {
+      "currentPrice": 0,
+      "isActive": true,
+      "views": [],
+      "imported": false,
+      "_id": "62eab58edb69e8994dcd3d0a",
+      "image": "https://piqsol.mypinata.cloud/ipfs/QmSVwUoBDYbSMYgQdNRKAANroKVukGeF8chptBMN6zdBSx",
+      "name": "Scuba Hunters #75",
+      "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now. ",
+      "external_url": "",
+      "seller_fee_basis_points": 500,
+      "properties": {
+        "_id": "62eab58edb69e8994dcd3d0b",
+        "files": [
+          {
+            "_id": "62eab58edb69e8994dcd3d0c",
+            "uri": "https://piqsol.mypinata.cloud/ipfs/QmSVwUoBDYbSMYgQdNRKAANroKVukGeF8chptBMN6zdBSx",
+            "type": "image/png"
+          }
+        ],
+        "creators": [
+          {
+            "_id": "62eab58edb69e8994dcd3d0d",
+            "address": "0x4229c4465659b19505e75052DC473f4E4fCE3c94",
+            "share": 100
+          }
+        ],
+        "category": "image"
+      },
+      "attributes": [
+        {
+          "_id": "62eab58edb69e8994dcd3d0e",
+          "trait_type": "Background",
+          "value": "Shallows"
+        },
+        {
+          "_id": "62eab58edb69e8994dcd3d0f",
+          "trait_type": "Diving Suit",
+          "value": "The Bee Suit"
+        },
+        {
+          "_id": "62eab58edb69e8994dcd3d10",
+          "trait_type": "Mask",
+          "value": "Yellow Dome"
+        },
+        {
+          "_id": "62eab58edb69e8994dcd3d11",
+          "trait_type": "Treasure",
+          "value": "Crystal"
+        },
+        {
+          "_id": "62eab58edb69e8994dcd3d12",
+          "trait_type": "Treasure Box",
+          "value": "Coins"
+        }
+      ],
+      "symbol": "",
+      "artistName": "",
+      "collectionId": {
+        "communityLinks": [
+          "[{\"name\":\"domain\",\"value\":\"\"},{\"name\":\"twitter\",\"value\":\"\"},{\"name\":\"discord\",\"value\":\"\"},{\"name\":\"telegram\",\"value\":\"\"},{\"name\":\"medium\",\"value\":\"\"}]"
+        ],
+        "isVerified": false,
+        "_id": "62ea8e16285dbdcece4206c3",
+        "userId": "62ea8d88260d7b191ea21404",
+        "fullName": "Scuba Hunters",
+        "avatar": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948880124image2.jpg",
+        "cover": "https://piqsol-in.s3.us-east-2.wasabisys.com/piqsol-in/1658948881986image4.png",
+        "description": "On the surface, the water is calm and steady. But below it, there are Scuba Hunters in the depths of the ocean with a mission to find the motherload of treasure. After passing some mysterious creatures on the way down and venturing into deep underwater caves and beautiful corals, they have finally found a glowing chest. What else they will find down there is anyone's guess...  Join them on their quest now.",
+        "url": "https://www.instagram.com/scubahuntersnft/",
+        "createdAt": "2022-07-27T19:08:02.617Z",
+        "updatedAt": "2022-07-27T19:08:02.617Z",
+        "__v": 0,
+        "blockchainType": "polygon"
+      },
+      "userId": {
+        "communityLinks": [],
+        "url": null,
+        "isVerified": false,
+        "isBlocked": false,
+        "chainType": "polygon",
+        "_id": "62ea8d88260d7b191ea21404",
+        "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+        "ipAddress": "127.0.0.1",
+        "isBlock": false,
+        "nonce": 903629,
+        "createdAt": "2022-08-03T15:00:24.989Z",
+        "updatedAt": "2022-08-04T10:45:14.505Z",
+        "__v": 0,
+        "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+      },
+      "tokenId": "470",
+      "txnHash": "0xc279e341a8937b31de60469a5dc31833afc58edf201b8014dd57b5e3ffcba4fd",
+      "contractAddress": "0xBe7bfd25D7bf12Af2441660b48eB4FB5aa52e9dD",
+      "creators": [
+        {
+          "_id": "62eab58edb69e8994dcd3d13",
+          "address": "0x4229c4465659b19505e75052DC473f4E4fCE3c94",
+          "share": 100
+        }
+      ],
+      "blockchainType": "polygon",
+      "createdAt": "2022-08-03T17:51:10.839Z",
+      "updatedAt": "2022-08-04T14:01:21.497Z",
+      "__v": 0,
+
+      "creatorNftRights": {
+        "_id": "62ebd131d6944089cd2d0d3a",
+        "digitalCommercialization": true,
+        "digitalReproduction": true,
+        "physicalReproductionRights": true,
+        "publicDisplayOrStreamArtWork": true
+      },
+      "displayStreaming": {
+        "_id": "62ebd131d6944089cd2d0d38",
+        "commercialPurposes": false,
+        "piqsolEcosystem": true,
+        "privatePurposes": true
+      },
+      "physicalReproduction": {
+        "_id": "62ebd131d6944089cd2d0d39",
+        "multipleCommercialPurposes": false,
+        "noReproduction": true,
+        "oneCommercialPurposes": false,
+        "privatePurposes": false
+      },
+      "nftFavouriteCount": 0
+    },
+    "nftId": "62eab58edb69e8994dcd3d0a",
+    "price": 80,
+    "userDetail": {
+      "communityLinks": [],
+      "url": null,
+      "isVerified": false,
+      "isBlocked": false,
+      "chainType": "polygon",
+      "_id": "62ea8d88260d7b191ea21404",
+      "walletAddress": "0x4229c4465659b19505e75052dc473f4e4fce3c94",
+      "ipAddress": "127.0.0.1",
+      "isBlock": false,
+      "nonce": 903629,
+      "createdAt": "2022-08-03T15:00:24.989Z",
+      "updatedAt": "2022-08-04T10:45:14.505Z",
+      "__v": 0,
+      "tokenAuth": "8m75BtCioGcL9s8JUptvgqtmj5l2STrbWeJB690ntAtz3NZVIqEHBdyKK6FnKx"
+    }
+  }
+]

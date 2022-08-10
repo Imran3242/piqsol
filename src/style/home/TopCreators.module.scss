@@ -1,0 +1,48 @@
+.TopCreators {
+  margin-bottom: 80px;
+
+  .heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+  .chipsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    @media (max-width: 900px) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .chipCard {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg-home-card);
+      border-radius: 37.5px;
+      padding: 15px 20px;
+
+      .chipAvatar {
+        width: 40px;
+        height: 40px;
+      }
+
+      p {
+        font-size: 20px;
+        color: var(--text-color);
+        @media (max-width: 600px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

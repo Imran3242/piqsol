@@ -1,0 +1,125 @@
+:root {
+  /* Background Colors */
+  --bg-white: #ffffff;
+  --bg-lightGray: #eeeeee;
+  --bg-body: #ffffff;
+  --bg-footer: #f7f7f7;
+  --bg-card: #ffffff;
+  --bg-card-footer: #f4f4f4;
+  --bg-alert-item: #f1f1f1;
+  --bg-btn-action: #ffffff;
+  --scroll-thumb: #cac2c2;
+  --border-color: #e7e7e7;
+  --card-action-title: #454545;
+  --footer-action-btn: #efefef;
+  --bg-date-item: #adadad;
+  --bg-drag-btn: #f4f4f4;
+  --border-drag-btn: #c9c9c9;
+  --bg-icon-item: #efefef;
+  --stack-card: #f3f3f3;
+  --arrow-icon-bg: #f6f6f6;
+  --select-bg: #f6f6f6;
+
+  /* text colors */
+  --text-color: #000000;
+  --text-link: #0743cf;
+  --text-gray: #545454;
+  --dark-opacity: rgba(0, 0, 0, 0.5);
+}
+
+/* Color vaiables for light theme */
+
+.light-theme {
+  /* Background Images */
+  --bg-home-banner: url('../../src/assets/images/Home-BannerBg.png');
+  --bg-combined-shape: url('../../src/assets/images/Combined-Shape.png');
+  --footer-logo:url('../../src/assets/images/logo-footer.png');
+  --header-logo:url('../../src/assets/images/new-logo.png');
+  --fractional-icon:url('../../src/assets/images/fractional-gray.png');
+  --footer-logo-position:left 0px top;
+
+  /* Background Colors */
+  --bg-white: #ffffff;
+  --bg-lightGray: #eeeeee;
+  --bg-body: #ffffff;
+  --bg-footer: #f7f7f7;
+  --card-bottom-text: #454545;
+  --bg-card: #ffffff;
+  --bg-home-card: #f4f4f4;
+  --bg-banner-second-card: linear-gradient(90deg, #fff 0%, #ad9ad3 80%,#ad9ad3 90%);
+  --bg-home-circle: linear-gradient(180deg, #FDFDFD 0%, #E5E5E5 100%);
+  --bg-home-nft: linear-gradient(180deg,rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 1) 100%);
+  --bg-card-footer: #f4f4f4;
+  --bg-alert-item: #f1f1f1;
+  --bg-btn-action: #ffffff;
+  --bg-btn: #000;
+  --bg-gradient-btn: linear-gradient(
+    223.51deg,
+    #3fbc9c 0%,
+    #5190c2 50.89%,
+    #8754f2 100%
+  );
+  --scroll-thumb: #cac2c2;
+  --border-color: #e7e7e7;
+  --card-action-title: #454545;
+  --footer-action-btn: #efefef;
+  --bg-date-item: #adadad;
+  --bg-drag-btn: #f4f4f4;
+  --border-drag-btn: #c9c9c9;
+  --bg-icon-item: #efefef;
+  --stack-card: #f3f3f3;
+  --arrow-icon-bg: #f6f6f6;
+  --select-bg: #f6f6f6;
+  --banner-card-border:#e7e7e7;
+
+  /* text colors */
+  --text-color: #000000;
+  --text-gray: #545454;
+  --text-btn: #fff;
+  --nft-border-color: #E3E3E3;
+}
+
+/* Color vaiables for dark theme */
+
+.dark-theme {
+    /* Background Images */
+    --bg-home-banner: url('../../src/assets/images/Home-BannerBgDark.png');
+    --bg-combined-shape: url('../../src/assets/images/Combined-ShapeDark.png');
+    --footer-logo:url('../../src/assets/images/logo-footerDark.png');
+    --header-logo:url('../../src/assets/darkmode/header-logo-dark.png');
+    --fractional-icon:url('../../src/assets/images/fractional-white.png');
+    --footer-logo-position:left 0 top;
+
+  /* Background Colors */
+  --bg-white: #020202;
+  --bg-lightGray: #1e1e1e;
+  --bg-body: #0e0e0e;
+  --bg-footer: #020202;
+  --card-bottom-text: #979797;
+  --bg-card: #181818;
+  --bg-home-card: #141414;
+  --bg-banner-second-card: linear-gradient(90deg, #2A2A2B 0%, #444155 50%,#523E77 90%);
+  --bg-home-circle: linear-gradient(180deg, #292929 0%, #1C1C1C 100%);
+  --bg-home-nft:  linear-gradient(180deg, #171717 0%, #0E0E0E 35%, #0e0e0e 100%);
+  --bg-card-footer: #141414;
+  --bg-alert-item: #232323;
+  --bg-btn-action: #272626;
+  --bg-drag-btn: #141414;
+  --scroll-thumb: #555;
+  --border-color: #2e2e2e;
+  --card-action-title: #ffffff;
+  --footer-action-btn: #121212;
+  --bg-date-item: #222222;
+  --border-drag-btn: rgba(127, 127, 127, 0.27);
+  --bg-icon-item: #272626;
+  --stack-card: #131313;
+  --arrow-icon-bg: #1d1d1d;
+  --select-bg: #2e2e2e;
+  --banner-card-border:#595959;
+
+  /* Text Colors */
+  --text-color: #ffffff;
+  --text-gray: #ffffff;
+  --text-btn: #fff;
+  --nft-border-color: #282828;
+}

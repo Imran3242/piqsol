@@ -1,0 +1,127 @@
+.footer {
+  background-color: var(--bg-footer);
+  padding: 50px 0;
+  margin-top: 50px;
+
+  @media (min-width: 900px) and (max-width: 1400px) {
+    padding-left: 110px;
+  }
+
+  .footerLogo {
+    background: var(--footer-logo);
+    margin-bottom: 30px;
+    width: 250px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: var(--footer-logo-position);
+  }
+  .getStarted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(201, 201, 201, 0.5);
+    gap: 20px;
+
+    @media (max-width: 980px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    h2 {
+      font-size: 35px;
+      margin-bottom: 20px;
+      color: var(--text-color);
+      font-family: 'Visby CF Extra Bold';
+    }
+
+    p {
+      color: var(--text-color);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--text-color);
+    }
+
+    button {
+      color: #000;
+      font-family: 'Visby CF Bold';
+    }
+  }
+
+  h5 {
+    font-size: 19px;
+    font-family: 'Visby CF Bold';
+    color: var(--text-color);
+  }
+  .arrowIcon {
+    width: 15px;
+    margin-right: 10px;
+    opacity: 0.3;
+
+    g {
+      stroke: var(--text-color);
+    }
+  }
+
+  ul {
+    li {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #363636;
+    }
+    .itemText {
+      span {
+        font-size: 14px;
+        color: var(--text-color);
+        opacity: 85%;
+      }
+    }
+  }
+
+  .logoSection {
+    .socialCommunity {
+      margin-bottom: 30px;
+
+      h5 {
+        margin-bottom: 10px;
+        font-family: 'Visby CF Bold';
+        font-size: 14px;
+        color: var(--text-color);
+        opacity: 85%;
+      }
+      ul {
+        display: flex;
+        gap: 15px;
+
+        li {
+          width: 41px;
+          height: 41px;
+          border-radius: 50%;
+          background-color: var(--footer-action-btn);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        img {
+          width: 15px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .copyright {
+    font-size: 14px;
+    color: var(--text-color);
+
+    a {
+      color: var(--text-color);
+    }
+  }
+}

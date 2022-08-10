@@ -1,0 +1,77 @@
+.offersBlockWrapper {
+	margin-top: 60px;
+  .title {
+    font-size: 1.625rem;
+    color: var(--text-color);
+	font-family: "Visby CF Extra Bold";
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+	.tableWrapper {
+		.tableHeading {
+			font-size: 14px;
+			color: var(--text-color);
+			font-weight: 800;
+			border-bottom: 0;
+			font-family: "Visby CF Extra Bold";
+		}
+		td{
+			font-size: 0.875rem;
+			color: var(--text-color);
+			font-family: "Visby CF Demi Bold";
+
+			p span {
+				text-transform: capitalize;
+				font-family: "Visby CF Demi Bold";
+			}
+		}
+		.pending {
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #FBD04B;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 5px;
+			.pendingInner{
+				border-radius: 50%;
+				background-color: #FBD04B;
+				width: 80%;
+				height: 80%;
+			}
+		}
+		.expired{
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #EA7C80;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 5px;
+			.expiredInner{
+				border-radius: 50%;
+				background-color: #EA7C80;
+				width: 80%;
+				height: 80%;
+			}
+		}
+		.rejected {
+			height: 12px;
+			width: 12px;
+			border-radius: 50%;
+			border: 1px solid #BDBEC1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-right: 5px;
+			.rejectedInner{
+				border-radius: 50%;
+				background-color: #BDBEC1;
+				width: 80%;
+				height: 80%;
+			}
+		}
+	}
+}

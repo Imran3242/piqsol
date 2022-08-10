@@ -1,0 +1,265 @@
+.wrapper {
+  padding: 50px;
+
+  .imageErrorMsg {
+    color: #d32f2f  !important;
+    opacity: 1 !important;
+    font-family: Visby Regular;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    text-align: left;
+    margin-top: 3px;
+    margin-right: 14px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-family: 'Visby CF Bold';
+    margin-bottom: 30px;
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+
+  label {
+    font-family: 'Visby CF Bold';
+    color: var(--text-color);
+  }
+
+  .topCaption {
+    font-size: 14px;
+    font-family: "Visby CF Demi Bold";
+  }
+
+  .fileChangeText {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 35px;
+    width: 100% !important;
+  }
+  .bottomCaption {
+    font-size: 14px;
+    color: var(--text-color);
+    opacity: 0.5;
+    font-family: 'Visby CF Demi Bold';
+  }
+
+  .boxUploadAudio {
+    width: 180px;
+  }
+
+  .boxUploadVideo {
+    height: 150px;
+    width: 195px;
+    position: absolute;
+    z-index: 9;
+  }
+
+  .boxUploadImage {
+    height: 195px;
+    width: 195px;
+    position: absolute;
+    z-index: 9;
+  }
+
+  .back {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #3770e3;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-family: "Visby CF Demi Bold";
+
+    p {
+      font-size: 19px;
+    }
+
+    svg {
+      font-size: 16px;
+    }
+  }
+
+  .block {
+    margin-bottom: 20px;
+
+    .errorMsg {
+      color: #d32f2f;
+      font-family: "Visby CF Demi Bold";
+      font-weight: 400;
+      font-size: 0.75rem;
+      line-height: 1.66;
+      letter-spacing: 0.03333em;
+      text-align: left;
+      margin-top: 3px;
+      margin-right: 14px;
+      margin-bottom: 0;
+      margin-left: 14px;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    .inputLabel {
+      font-size: 1rem;
+      color: var(--text-color);
+      font-family: 'Visby CF Bold';
+      margin-bottom: 10px;
+    }
+
+    .imageSelect {
+      height: 53px;
+      border-radius: 11px !important;
+      font-size: 14px;
+    }
+
+    .topCaption {
+      color: var(--text-color);
+      font-family: 'Visby CF Demi Bold';
+    }
+
+    p {
+      color: var(--text-color);
+      opacity: 0.5;
+      font-family: 'Visby CF Demi Bold';
+      font-size: 14px;
+    }
+
+    .boxUploadButtonImage {
+      height: 195px;
+      width: 195px;
+      border: 2px dashed #c9c9c9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      background-color: #f4f4f4;
+      cursor: pointer;
+      margin: 14px 0;
+    }
+
+    .boxUploadButtonVideo {
+      width: 195px;
+      border: 2px dashed #c9c9c9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      background-color: #f4f4f4;
+      cursor: pointer;
+      margin: 14px 0;
+    }
+
+    .boxUploadIcon {
+      opacity: 0.2;
+      color: var(--text-color);
+      font-size: 2.2rem;
+    }
+  }
+
+  .footerAction {
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30px;
+
+    .createCollection {
+      border-radius: 40px;
+      height: 55px;
+      width: 154px;
+      font-family: 'Visby CF Bold';
+      font-size: 19px;
+      margin-top: 30px;
+      background: var(--bg-gradient-btn);
+      color: var(--text-btn) !important;
+
+      &:hover {
+        background: var(--bg-gradient-btn);
+      }     
+    }
+  } 
+  .inputFormControl {
+    fieldset {
+      border: 1px solid var(--border-color);
+      border-radius: 11px;
+      width: 100%;
+    }
+
+    input {
+      font-family: 'Visby CF Bold';
+      color: var(--text-color);
+      font-size: 14px;
+      &::placeholder {
+        color: var(--text-color);
+      }
+    }
+  }
+  .TextAreaFormControl {
+    border: 1px solid var(--border-color);
+    border-radius: 11px;
+    width: 100%;
+    font-family: 'Visby Regular';
+    font-size: 14px;
+    font-family: 'Visby CF Bold';
+    letter-spacing: 0;
+    line-height: 22px;
+    background-color: transparent;
+    color: var(--text-color);
+    textarea {
+      border: 0;
+      color: var(--text-color);
+      font-family: 'Visby CF Bold';
+      font-size: 14px;
+    }
+  }
+
+  .plusIcon {
+    font-size: 16px !important;
+  }
+
+  .closeIcon {
+    fill: var(--text-color);
+  }
+ .agree {
+   font-size: 13px;
+   font-family: 'Visby CF Demi Bold';
+ }
+}
+.actionsWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  .actionBtn {
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 15px;
+    font-family: "Visby CF Bold";
+  }
+  .grayBtn {
+    background-color: rgba(209, 209, 209, 0.38);
+    color: var(--text-color);
+    font-family: "Visby CF Bold";
+    height: 36px;
+    flex-grow: 1;
+    .btnLogo {
+      height: 22px;
+      width: 22px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 5px;
+    }
+  }
+}
+.addMoreText{
+  margin-top: 10px !important;
+  margin-left: 17px !important;
+  color: red;
+  font-family: "Visby CF Demi Bold" !important;
+  font-size: 14px !important;
+}

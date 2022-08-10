@@ -1,0 +1,191 @@
+.block {
+  margin-bottom: 20px;
+  .inputLabel {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: "Visby CF Bold";
+    font-size: 14px;
+  }
+  .customSelect,
+  .TextAreaFormControl,
+  .inputFormControl {
+    > div {
+      border-radius: 11px;
+    }
+  }
+}
+.blockCaption {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-color);
+  opacity: 0.5;
+  width: 70%;
+  margin-top: 3px !important;
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+}
+.formWrapper {
+  padding-bottom: 20px;
+}
+.wallerAddress {
+  display: flex;
+
+  .iconItem {
+    height: 53px;
+    width: 68px;
+    border: 1px solid var(--border-color);
+    border-left: 0;
+    border-radius: 0 11px 11px 0;
+    background-color: var(--bg-icon-item);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  img {
+    width: 18px;
+  }
+
+  .formControlInput {
+    > div {
+      height: 53px;
+      border-radius: 11px 0 0 11px;
+      border: 1px solid var(--border-color) !important;
+      border-right: 0 !important;
+    }
+    input {
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+      font-size: 14px;
+      &::placeholder {
+        color: var(--text-color);
+      }
+      &:disabled {
+        -webkit-text-fill-color: rgba($color: #ffffff, $alpha: 0.3) !important;
+      }
+    }
+  }
+
+  .formControlInputAddress {
+    > div {
+      height: 53px;
+      border-radius: 11px 0 0 11px;
+      border: 1px solid var(--border-color) !important;
+      border-right: 0 !important;
+    }
+    input {
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+      opacity: 0.4;
+      -webkit-text-fill-color: var(--text-color);
+
+      &::placeholder {
+        color: var(--text-color);
+      }
+    }
+  }
+}
+.footerAction {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  .createCollection {
+    font-size: 19px;
+    font-family: "Visby CF Bold";
+    border-radius: 40px;
+    height: 55px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background: var(--bg-gradient-btn);
+    color: var(--text-btn);
+
+    &:hover {
+      background: var(--bg-gradient-btn);
+    }
+  }
+}
+.communityLinkWrapper {
+  display: flex;
+  margin-bottom: 10px;
+  .formControlInput {
+    width: 100%;
+
+    input {
+      font-family: "Visby CF Bold";
+      color: var(--text-color);
+      font-size: 14px;
+      &::placeholder {
+        color: var(--text-color);
+      }
+      &:disabled {
+        -webkit-text-fill-color: var(--text-color) !important;
+      }
+    }
+    fieldset {
+      height: 58px;
+      width: 100%;
+      border: 1px solid var(--border-color) !important;
+      border-radius: 0 11px 11px 0;
+    }
+  }
+
+  .iconItem {
+    height: 53px;
+    width: 68px;
+    border: 1px solid var(--border-color);
+    border-right: 0;
+    border-radius: 11px 0 0 11px;
+    background-color: var(--bg-icon-item);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      opacity: 0.3;
+    }
+    svg {
+      opacity: 0.3;
+      path {
+        fill: var(--text-color);
+      }
+    }
+  }
+}
+.inputFormControl {
+  fieldset {
+    border: 1px solid var(--border-color) !important;
+    border-radius: 11px;
+    width: 100%;
+  }
+
+  input {
+    font-family: "Visby CF Bold";
+    color: var(--text-color);
+    -webkit-text-fill-color: var(--text-color) !important;
+    
+    &::placeholder {
+      color: var(--text-color) !important;
+    }
+  }
+}
+.TextAreaFormControl {
+  border: 1px solid var(--border-color) !important;
+  border-radius: 11px;
+  width: 100%;
+  font-family: 'Visby Regular';
+  font-size: 14px;
+  font-family: "Visby CF Bold";
+  letter-spacing: 0;
+  line-height: 22px;
+  background-color: transparent;
+  color: var(--text-color);
+  textarea {
+    border: 0;
+    color: var(--text-color);
+    -webkit-text-fill-color: var(--text-color) !important;
+  }
+}

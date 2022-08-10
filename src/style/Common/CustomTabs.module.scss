@@ -1,0 +1,50 @@
+.customTabsWrapper {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  overflow: auto;
+  margin-top: 30px;
+  @media (max-width: 600px) {
+    gap: 20px;
+    justify-content: start;
+  }
+  .tabLink {
+    text-decoration: none;
+    color: #868686;
+    position: relative;
+    .tabItem {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .tabIcon {
+        font-size: 1.25rem;
+      }
+      .tabName {
+        font-size: 19px;
+        font-family: 'Visby CF Bold';
+        white-space: nowrap;
+        @media (max-width: 600px) {
+          font-size: 14px;
+        }
+
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .activeClassLink {
+    color: #3770e3;
+    .borderBottom {
+      position: absolute;
+      height: 1px;
+      bottom: -23px;
+      width: 100%;
+      background-color: #3770e3;
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,150 @@
+.dialogWrapper {
+  .customInput {
+    input {
+      border: none;
+      color: var(--text-color);
+      font-size: 26px;
+      font-weight: 800;
+      font-family: "Visby CF Extra Bold";
+      background: transparent;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .modalTitle {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Visby CF Extra Bold';
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+  .closeIcon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.5;
+    @media (max-width: 600px) {
+      top: 15px;
+      right: 15px;
+    }
+  }
+
+  .buynowBtn {
+    background: linear-gradient(
+      223.51deg,
+      #3fbc9c 0%,
+      #5190c2 50.89%,
+      #8754f2 100%
+    );
+    width: 100%;
+    height: 58px;
+    border-radius: 39px;
+    font-size: 19px;
+    font-family: 'Visby CF Bold';
+    max-width: 220px;
+    margin: auto;
+  }
+  .modalActionWrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoItemWrapper {
+    margin-bottom: 20px;
+    .label {
+      font-size: 14px;
+      opacity: 0.6;
+      color: var(--text-color);
+      font-family: 'Visby CF Bold';
+    }
+    .item {
+      border: 1px solid var(--border-color);
+      border-radius: 11px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .priceInfo {
+        color: var(--text-color);
+        font-size: 26px;
+        font-weight: 800;
+      }
+      .price {
+        color: var(--text-color);
+        font-size: 12px;
+        opacity: 0.5;
+        font-family: 'Visby CF Bold';
+      }
+      .actionBtnWrapper {
+        display: flex;
+        gap: 10px;
+        .useMax {
+          border: 1px solid #43f195;
+          color: var(--text-color);
+          border-radius: 10px;
+          padding: 10px 14px;
+          font-family: 'Visby CF Bold';
+        }
+        .solBtn {
+          border-radius: 5px;
+          color: var(--text-color);
+          background-color: var(--bg-lightGray);
+          padding: 10px 14px;
+          font-family: 'Visby CF Bold';
+          .solLogo {
+            height: 18px;
+            width: 32px;
+            object-fit: contain;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .platformFee {
+    .platformFeeLabel {
+      opacity: 0.6;
+      color: var(--text-color);
+      font-size: 14px;
+      font-family: 'Visby CF Bold';
+    }
+    .platformInfoBlock {
+      margin: 10px 0 20px 0;
+      border: 1px solid var(--border-color);
+      border-radius: 11px;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .price {
+        font-size: 14px;
+        font-family: 'Visby CF Bold';
+        color: var(--text-color);
+      }
+      .balnce {
+        opacity: 0.5;
+        color: var(--text-color);
+        font-size: 14px;
+        font-weight: 800;
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+  .datePicker {
+    border: 0;
+    &:focus {
+      outline: none;
+    }
+  }
+}

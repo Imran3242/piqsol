@@ -1,0 +1,96 @@
+.modalBodyWrapper {
+  .blockItem {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 600px) {
+      gap: 12px;
+    }
+    .counter {
+      color: var(--text-color);
+      font-family: 'Visby CF Bold';
+      font-size: 21px;
+      input {
+        font-family: "Visby CF Bold";
+        font-weight: 600;
+        color: var(--text-color);
+        font-size: 21px;
+        width: 180px;
+      }
+      fieldset {
+        border-color: var(--border-color);
+      }
+    }
+    .customSelect {
+      border-radius: 26px;
+      background-color: var(--select-bg);
+      border: 0;
+      height: 40px;
+      fieldset {
+        border: 0;
+      }
+      .redIcon {
+        display: inline-block;
+        background-color: #f24343;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+      }
+    }
+    .listItemInfo {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'Visby CF Bold';
+      span {
+        color: var(--text-color);
+        font-family: 'Visby CF Bold';
+      }
+    }
+  }
+  .seprator {
+    margin-bottom: 20px;
+    text-align: center;
+    .arrowIcon {
+      height: 28px;
+      width: 22px;
+      border-radius: 26px;
+      margin: auto;
+      background-color: var(--arrow-icon-bg);
+      color: #747474;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      position: relative;
+      top: 12px;
+    }
+    hr {
+      border-color: var(--border-color);
+    }
+  }
+  .actionWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    .actionButton {
+      background-color: #cfddf9;
+      color: #3770e3;
+      height: 58px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 40px;
+      font-size: 19px;
+      font-weight: 600;
+      font-family: 'Visby CF Bold';
+    }
+  }
+}

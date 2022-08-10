@@ -1,0 +1,27 @@
+.dialogWrapper {
+
+  .modalTitle {
+    font-size: 50px;
+    font-family: "Visby CF Extra Bold";
+    text-align: center;
+    color: var(--text-color);
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+  .closeIcon {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+    opacity: 0.5;
+    @media (max-width: 600px) {
+      top: 15px;
+    right: 15px;
+    }
+  }
+  .loadingMessage {
+    text-align: center;
+  }
+}
